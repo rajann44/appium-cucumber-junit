@@ -1,0 +1,71 @@
+2021-07-04 13:07:23:136 [Appium] Welcome to Appium v1.20.2
+2021-07-04 13:07:23:138 [Appium] Non-default server args:
+2021-07-04 13:07:23:138 [Appium]   port: 38562
+2021-07-04 13:07:23:139 [Appium]   sessionOverride: true
+2021-07-04 13:07:23:139 [Appium]   logFile: /Users/rajanchaudhary/Desktop/AppiumCucumber/Android_Moto Z2 Play/Server.log
+2021-07-04 13:07:23:181 [Appium] Appium REST http interface listener started on 0.0.0.0:38562
+2021-07-04 13:07:23:387 [HTTP] --> GET /wd/hub/status
+2021-07-04 13:07:23:387 [HTTP] {}
+2021-07-04 13:07:23:389 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-07-04 13:07:23:391 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.20.2"}}
+2021-07-04 13:07:23:402 [HTTP] <-- GET /wd/hub/status 200 11 ms - 68
+2021-07-04 13:07:23:402 [HTTP] 
+2021-07-04 13:07:23:411 [HTTP] --> GET /wd/hub/status
+2021-07-04 13:07:23:411 [HTTP] {}
+2021-07-04 13:07:23:412 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-07-04 13:07:23:413 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.20.2"}}
+2021-07-04 13:07:23:414 [HTTP] <-- GET /wd/hub/status 200 3 ms - 68
+2021-07-04 13:07:23:415 [HTTP] 
+2021-07-04 13:07:24:320 [HTTP] Request idempotency key: 2b3fc6b9-75d1-4880-b408-1f5a00c21353
+2021-07-04 13:07:24:345 [HTTP] --> POST /wd/hub/session
+2021-07-04 13:07:24:345 [HTTP] {"desiredCapabilities":{"app":"/Users/rajanchaudhary/Desktop/AppiumCucumber/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","chromeDriverPort":"11000","platformName":"Android","udid":"ZY224676P8","deviceName":"Moto Z2 Play","systemPort":"10000"},"capabilities":{"firstMatch":[{"appium:app":"/Users/rajanchaudhary/Desktop/AppiumCucumber/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","chromeDriverPort":"11000","appium:deviceName":"Moto Z2 Play","platformName":"android","appium:systemPort":"10000","appium:udid":"ZY224676P8"}]}}
+2021-07-04 13:07:24:346 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/rajanchaudhary/Desktop/AppiumCucumber/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"UiAutomator2","chromeDriverPort":"11000","platformName":"Android","udid":"ZY224676P8","deviceName":"Moto Z2 Play","systemPort":"10000"},null,{"firstMatch":[{"appium:app":"/Users/rajanchaudhary/Desktop/AppiumCucumber/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"UiAutomator2","chromeDriverPort":"11000","appium:deviceName":"Moto Z2 Play","platformName":"android","appium:systemPort":"10000","appium:udid":"ZY224676P8"}]}]
+2021-07-04 13:07:24:351 [BaseDriver] Event 'newSessionRequested' logged at 1625404044347 (18:37:24 GMT+0530 (India Standard Time))
+2021-07-04 13:07:24:355 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2021-07-04 13:07:24:355 [BaseDriver]   chromeDriverPort
+2021-07-04 13:07:25:167 [Appium] Appium v1.20.2 creating new AndroidUiautomator2Driver (v1.61.2) session
+2021-07-04 13:07:25:168 [Appium] There are no active sessions for cleanup
+2021-07-04 13:07:25:170 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2021-07-04 13:07:25:171 [BaseDriver] Creating session with W3C capabilities: {
+2021-07-04 13:07:25:171 [BaseDriver]   "alwaysMatch": {
+2021-07-04 13:07:25:171 [BaseDriver]     "appium:chromeDriverPort": "11000",
+2021-07-04 13:07:25:171 [BaseDriver]     "platformName": "android",
+2021-07-04 13:07:25:171 [BaseDriver]     "appium:app": "/Users/rajanchaudhary/Desktop/AppiumCucumber/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk",
+2021-07-04 13:07:25:171 [BaseDriver]     "appium:appActivity": "com.swaglabsmobileapp.SplashActivity",
+2021-07-04 13:07:25:171 [BaseDriver]     "appium:appPackage": "com.swaglabsmobileapp",
+2021-07-04 13:07:25:171 [BaseDriver]     "appium:automationName": "UiAutomator2",
+2021-07-04 13:07:25:172 [BaseDriver]     "appium:deviceName": "Moto Z2 Play",
+2021-07-04 13:07:25:172 [BaseDriver]     "appium:systemPort": "10000",
+2021-07-04 13:07:25:172 [BaseDriver]     "appium:udid": "ZY224676P8"
+2021-07-04 13:07:25:172 [BaseDriver]   },
+2021-07-04 13:07:25:172 [BaseDriver]   "firstMatch": [
+2021-07-04 13:07:25:172 [BaseDriver]     {}
+2021-07-04 13:07:25:172 [BaseDriver]   ]
+2021-07-04 13:07:25:172 [BaseDriver] }
+2021-07-04 13:07:25:175 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2021-07-04 13:07:25:175 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2021-07-04 13:07:25:179 [BaseDriver] Capability 'systemPort' changed from string ('10000') to integer (10000). This may cause unexpected behavior
+2021-07-04 13:07:25:179 [BaseDriver] Capability 'chromeDriverPort' changed from string ('11000') to integer (11000). This may cause unexpected behavior
+2021-07-04 13:07:25:183 [BaseDriver] Session created with session id: 0183f0ea-13bf-475e-85aa-9a958d511c7d
+2021-07-04 13:07:25:186 [BaseDriver] Using local app '/Users/rajanchaudhary/Desktop/AppiumCucumber/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk'
+2021-07-04 13:07:25:186 [UiAutomator2] Checking whether app is actually present
+2021-07-04 13:07:25:195 [ADB] Found 1 'build-tools' folders under '/Users/rajanchaudhary/Library/Android/sdk' (newest first):
+2021-07-04 13:07:25:195 [ADB]     /Users/rajanchaudhary/Library/Android/sdk/build-tools/30.0.3
+2021-07-04 13:07:25:196 [ADB] Using 'adb' from '/Users/rajanchaudhary/Library/Android/sdk/platform-tools/adb'
+2021-07-04 13:07:25:196 [ADB] Running '/Users/rajanchaudhary/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2021-07-04 13:07:25:216 [AndroidDriver] Retrieving device list
+2021-07-04 13:07:25:217 [ADB] Trying to find a connected android device
+2021-07-04 13:07:25:218 [ADB] Getting connected devices
+2021-07-04 13:07:25:230 [ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+2021-07-04 13:07:25:230 [AndroidDriver] Device ZY224676P8 was not in the list of connected devices
+2021-07-04 13:07:25:231 [UiAutomator2] Deleting UiAutomator2 session
+2021-07-04 13:07:25:233 [BaseDriver] Event 'newSessionStarted' logged at 1625404045232 (18:37:25 GMT+0530 (India Standard Time))
+2021-07-04 13:07:25:339 [W3C] Encountered internal error running command: Error: Device ZY224676P8 was not in the list of connected devices
+2021-07-04 13:07:25:340 [W3C]     at Object.errorAndThrow (/usr/local/lib/node_modules/appium/node_modules/appium-support/lib/logging.js:94:35)
+2021-07-04 13:07:25:340 [W3C]     at Object.getDeviceInfoFromCaps (/usr/local/lib/node_modules/appium/node_modules/appium-android-driver/lib/android-helpers.js:210:16)
+2021-07-04 13:07:25:341 [W3C]     at AndroidUiautomator2Driver.startUiAutomator2Session (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:327:26)
+2021-07-04 13:07:25:341 [W3C]     at AndroidUiautomator2Driver.createSession (/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:224:7)
+2021-07-04 13:07:25:342 [W3C]     at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:371:35)
+2021-07-04 13:07:25:354 [HTTP] <-- POST /wd/hub/session 500 1008 ms - 613
+2021-07-04 13:07:25:354 [HTTP] 
+2021-07-04 13:07:25:401 [Appium] Received SIGINT - shutting down

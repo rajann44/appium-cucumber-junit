@@ -1,0 +1,1049 @@
+2021-07-04 14:17:58:621 [Appium] Welcome to Appium v1.20.2
+2021-07-04 14:17:58:622 [Appium] Non-default server args:
+2021-07-04 14:17:58:623 [Appium]   port: 3568
+2021-07-04 14:17:58:623 [Appium]   sessionOverride: true
+2021-07-04 14:17:58:623 [Appium]   logFile: /Users/rajanchaudhary/Desktop/AppiumCucumber/iOS_iPhone 11/Server.log
+2021-07-04 14:17:58:657 [Appium] Appium REST http interface listener started on 0.0.0.0:3568
+2021-07-04 14:17:58:864 [HTTP] --> GET /wd/hub/status
+2021-07-04 14:17:58:865 [HTTP] {}
+2021-07-04 14:17:58:867 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-07-04 14:17:58:869 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.20.2"}}
+2021-07-04 14:17:58:883 [HTTP] <-- GET /wd/hub/status 200 12 ms - 68
+2021-07-04 14:17:58:884 [HTTP] 
+2021-07-04 14:17:58:898 [HTTP] --> GET /wd/hub/status
+2021-07-04 14:17:58:898 [HTTP] {}
+2021-07-04 14:17:58:899 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-07-04 14:17:58:899 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.20.2"}}
+2021-07-04 14:17:58:900 [HTTP] <-- GET /wd/hub/status 200 2 ms - 68
+2021-07-04 14:17:58:901 [HTTP] 
+2021-07-04 14:17:59:643 [HTTP] Request idempotency key: 1a0d11a9-5317-4001-a752-d5b80703ea9f
+2021-07-04 14:17:59:672 [HTTP] --> POST /wd/hub/session
+2021-07-04 14:17:59:672 [HTTP] {"desiredCapabilities":{"app":"/Users/rajanchaudhary/Desktop/AppiumCucumber/src/test/resources/apps/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app","webkitDebugProxyPort":"11003","automationName":"XCUITest","bundleId":"com.saucelabs.SwagLabsMobileApp","platformName":"iOS","udid":"5098DCF8-A156-4819-8A1D-5FA540B95A3C","deviceName":"iPhone 11","wdaLocalPort":"10002"},"capabilities":{"firstMatch":[{"appium:app":"/Users/rajanchaudhary/Desktop/AppiumCucumber/src/test/resources/apps/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app","appium:automationName":"XCUITest","appium:bundleId":"com.saucelabs.SwagLabsMobileApp","appium:deviceName":"iPhone 11","platformName":"ios","appium:udid":"5098DCF8-A156-4819-8A1D-5FA540B95A3C","appium:wdaLocalPort":"10002","webkitDebugProxyPort":"11003"}]}}
+2021-07-04 14:17:59:673 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/rajanchaudhary/Desktop/AppiumCucumber/src/test/resources/apps/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app","webkitDebugProxyPort":"11003","automationName":"XCUITest","bundleId":"com.saucelabs.SwagLabsMobileApp","platformName":"iOS","udid":"5098DCF8-A156-4819-8A1D-5FA540B95A3C","deviceName":"iPhone 11","wdaLocalPort":"10002"},null,{"firstMatch":[{"appium:app":"/Users/rajanchaudhary/Desktop/AppiumCucumber/src/test/resources/apps/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app","appium:automationName":"XCUITest","appium:bundleId":"com.saucelabs.SwagLabsMobileApp","appium:deviceName":"iPhone 11","platformName":"ios","appium:udid":"5098DCF8-A156-4819-8A1D-5FA540B95A3C","appium:wdaLocalPort":"10002","webkitDebugProxyPort":"11003"}]}]
+2021-07-04 14:17:59:691 [BaseDriver] Event 'newSessionRequested' logged at 1625408279674 (19:47:59 GMT+0530 (India Standard Time))
+2021-07-04 14:17:59:695 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2021-07-04 14:17:59:695 [BaseDriver]   webkitDebugProxyPort
+2021-07-04 14:18:01:469 [Appium] Appium v1.20.2 creating new XCUITestDriver (v3.33.1) session
+2021-07-04 14:18:01:470 [Appium] There are no active sessions for cleanup
+2021-07-04 14:18:01:473 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2021-07-04 14:18:01:473 [BaseDriver] Creating session with W3C capabilities: {
+2021-07-04 14:18:01:473 [BaseDriver]   "alwaysMatch": {
+2021-07-04 14:18:01:473 [BaseDriver]     "platformName": "ios",
+2021-07-04 14:18:01:473 [BaseDriver]     "appium:webkitDebugProxyPort": "11003",
+2021-07-04 14:18:01:473 [BaseDriver]     "appium:app": "/Users/rajanchaudhary/Desktop/AppiumCucumber/src/test/resources/apps/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app",
+2021-07-04 14:18:01:474 [BaseDriver]     "appium:automationName": "XCUITest",
+2021-07-04 14:18:01:474 [BaseDriver]     "appium:bundleId": "com.saucelabs.SwagLabsMobileApp",
+2021-07-04 14:18:01:474 [BaseDriver]     "appium:deviceName": "iPhone 11",
+2021-07-04 14:18:01:474 [BaseDriver]     "appium:udid": "5098DCF8-A156-4819-8A1D-5FA540B95A3C",
+2021-07-04 14:18:01:474 [BaseDriver]     "appium:wdaLocalPort": "10002"
+2021-07-04 14:18:01:474 [BaseDriver]   },
+2021-07-04 14:18:01:475 [BaseDriver]   "firstMatch": [
+2021-07-04 14:18:01:475 [BaseDriver]     {}
+2021-07-04 14:18:01:475 [BaseDriver]   ]
+2021-07-04 14:18:01:475 [BaseDriver] }
+2021-07-04 14:18:01:479 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2021-07-04 14:18:01:481 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2021-07-04 14:18:01:485 [BaseDriver] Capability 'wdaLocalPort' changed from string ('10002') to integer (10002). This may cause unexpected behavior
+2021-07-04 14:18:01:485 [BaseDriver] Capability 'webkitDebugProxyPort' changed from string ('11003') to integer (11003). This may cause unexpected behavior
+2021-07-04 14:18:01:491 [XCUITest] 'platformVersion' capability ('undefined') is not a valid version number. Consider fixing it or be ready to experience an inconsistent driver behavior.
+2021-07-04 14:18:01:491 [BaseDriver] Session created with session id: 0fb965a4-b90e-4d82-9276-268d77cf9cde
+2021-07-04 14:18:01:550 [XCUITest] Current user: 'rajanchaudhary'
+2021-07-04 14:18:01:591 [XCUITest] Available devices: 
+2021-07-04 14:18:01:591 [XCUITest] No real device with udid '5098DCF8-A156-4819-8A1D-5FA540B95A3C'. Looking for simulator
+2021-07-04 14:18:01:953 [iOSSim] Constructing iOS simulator for Xcode version 11.3.1 with udid '5098DCF8-A156-4819-8A1D-5FA540B95A3C'
+2021-07-04 14:18:01:957 [XCUITest] Determining device to run tests on: udid: '5098DCF8-A156-4819-8A1D-5FA540B95A3C', real device: false
+2021-07-04 14:18:02:103 [XCUITest] No platformVersion specified. Using device version: '13.3'
+2021-07-04 14:18:02:106 [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1625408282106 (19:48:02 GMT+0530 (India Standard Time))
+2021-07-04 14:18:02:110 [BaseDriver] Using local app '/Users/rajanchaudhary/Desktop/AppiumCucumber/src/test/resources/apps/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app'
+2021-07-04 14:18:02:111 [BaseDriver] Event 'appConfigured' logged at 1625408282111 (19:48:02 GMT+0530 (India Standard Time))
+2021-07-04 14:18:02:112 [XCUITest] Checking whether app '/Users/rajanchaudhary/Desktop/AppiumCucumber/src/test/resources/apps/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app' is actually present on file system
+2021-07-04 14:18:02:113 [XCUITest] App is present
+2021-07-04 14:18:02:115 [BaseDriver] Event 'resetStarted' logged at 1625408282114 (19:48:02 GMT+0530 (India Standard Time))
+2021-07-04 14:18:02:383 [XCUITest] Not scrubbing third party app in anticipation of uninstall
+2021-07-04 14:18:02:383 [BaseDriver] Event 'resetComplete' logged at 1625408282383 (19:48:02 GMT+0530 (India Standard Time))
+2021-07-04 14:18:02:384 [WebDriverAgent] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent'
+2021-07-04 14:18:02:384 [WebDriverAgent] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+2021-07-04 14:18:02:543 [IOSSimulatorLog] Starting log capture for iOS Simulator with udid '5098DCF8-A156-4819-8A1D-5FA540B95A3C' using simctl
+2021-07-04 14:18:02:950 [BaseDriver] Event 'logCaptureStarted' logged at 1625408282950 (19:48:02 GMT+0530 (India Standard Time))
+2021-07-04 14:18:02:951 [XCUITest] Setting up simulator
+2021-07-04 14:18:02:951 [iOS] No reason to set locale
+2021-07-04 14:18:02:952 [iOS] No iOS / app preferences to set
+2021-07-04 14:18:02:952 [iOS] Setting did not need to be updated
+2021-07-04 14:18:02:954 [iOSSim] Setting preferences of 5098DCF8-A156-4819-8A1D-5FA540B95A3C Simulator to {"ConnectHardwareKeyboard":false}
+2021-07-04 14:18:02:954 [iOSSim] Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false}
+2021-07-04 14:18:03:149 [iOSSim] Updated 5098DCF8-A156-4819-8A1D-5FA540B95A3C Simulator preferences at '/Users/rajanchaudhary/Library/Preferences/com.apple.iphonesimulator.plist' with {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false,"DevicePreferences":{"5098DCF8-A156-4819-8A1D-5FA540B95A3C":{"ConnectHardwareKeyboard":false,"SimulatorExternalDisplay":2114,"ChromeTint":"","SimulatorWindowGeometry":{"D53F185C-5131-4E16-84DA-B41B857A1E50":{"WindowCenter":"{740, 494.5}","WindowScale":0.8162393162393162},"CD967382-F411-4E4C-BD8E-FAE940DA8412":{"WindowCenter":"{602, 1573.5}","WindowScale":0.8162393162393162}},"SimulatorWindowOrientation":"Portrait","SimulatorWindowRotationAngle":0}}}
+2021-07-04 14:18:03:343 [iOSSim] Got Simulator UI client PID: 1643
+2021-07-04 14:18:03:343 [iOSSim] Both Simulator with UDID '5098DCF8-A156-4819-8A1D-5FA540B95A3C' and the UI client are currently running
+2021-07-04 14:18:03:344 [BaseDriver] Event 'simStarted' logged at 1625408283343 (19:48:03 GMT+0530 (India Standard Time))
+2021-07-04 14:18:03:346 [XCUITest] Verifying application platform
+2021-07-04 14:18:03:349 [XCUITest] CFBundleSupportedPlatforms: ["iPhoneSimulator"]
+2021-07-04 14:18:03:566 [XCUITest] Reset requested. Removing app with id 'com.saucelabs.SwagLabsMobileApp' from the device
+2021-07-04 14:18:04:873 [XCUITest] Installing '/Users/rajanchaudhary/Desktop/AppiumCucumber/src/test/resources/apps/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app' on Simulator with UUID '5098DCF8-A156-4819-8A1D-5FA540B95A3C'...
+2021-07-04 14:18:06:917 [XCUITest] The app has been installed successfully.
+2021-07-04 14:18:06:917 [BaseDriver] Event 'appInstalled' logged at 1625408286917 (19:48:06 GMT+0530 (India Standard Time))
+2021-07-04 14:18:07:049 [WebDriverAgent] No obsolete cached processes from previous WDA sessions listening on port 10002 have been found
+2021-07-04 14:18:07:050 [DevCon Factory] Requesting connection for device 5098DCF8-A156-4819-8A1D-5FA540B95A3C on local port 10002
+2021-07-04 14:18:07:050 [DevCon Factory] Cached connections count: 0
+2021-07-04 14:18:07:050 [DevCon Factory] Successfully requested the connection for 5098DCF8-A156-4819-8A1D-5FA540B95A3C:10002
+2021-07-04 14:18:07:052 [XCUITest] Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+2021-07-04 14:18:07:054 [WD Proxy] Matched '/status' to command name 'getStatus'
+2021-07-04 14:18:07:055 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10002/status] with no body
+2021-07-04 14:18:07:079 [WD Proxy] Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"13.0","version":"13.3"},"ios":{"simulatorVersion":"13.3","ip":"192.168.1.18"},"ready":true,"build":{"upgradedAt":"499162500000","time":"Jul  4 2021 15:48:17","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+2021-07-04 14:18:07:080 [WebDriverAgent] Upgrade timestamp of the currently bundled WDA: 499162500000
+2021-07-04 14:18:07:081 [WebDriverAgent] Upgrade timestamp of the WDA on the device: 499162500000
+2021-07-04 14:18:07:082 [WebDriverAgent] Will reuse previously cached WDA instance at 'http://127.0.0.1:10002/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 10002 if this is an undesired behavior.
+2021-07-04 14:18:07:083 [XCUITest] Trying to start WebDriverAgent 2 times with 10000ms interval
+2021-07-04 14:18:07:086 [XCUITest] These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+2021-07-04 14:18:07:087 [BaseDriver] Event 'wdaStartAttempted' logged at 1625408287087 (19:48:07 GMT+0530 (India Standard Time))
+2021-07-04 14:18:07:091 [WebDriverAgent] Using provided WebdriverAgent at 'http://127.0.0.1:10002/'
+2021-07-04 14:18:07:092 [WD Proxy] Matched '/status' to command name 'getStatus'
+2021-07-04 14:18:07:093 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10002/status] with no body
+2021-07-04 14:18:07:101 [WD Proxy] Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"13.0","version":"13.3"},"ios":{"simulatorVersion":"13.3","ip":"192.168.1.18"},"ready":true,"build":{"upgradedAt":"499162500000","time":"Jul  4 2021 15:48:17","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+2021-07-04 14:18:07:103 [BaseDriver] Event 'wdaSessionAttempted' logged at 1625408287103 (19:48:07 GMT+0530 (India Standard Time))
+2021-07-04 14:18:07:104 [XCUITest] Sending createSession command to WDA
+2021-07-04 14:18:07:105 [WD Proxy] Matched '/session' to command name 'createSession'
+2021-07-04 14:18:07:106 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:10002/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"com.saucelabs.SwagLabsMobileApp","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true}],"alwaysMatch":{}}}
+2021-07-04 14:18:09:467 [WD Proxy] Got response with status 200: {"value":{"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E","capabilities":{"device":"iphone","browserName":"SwagLabsMobileApp","sdkVersion":"13.3","CFBundleIdentifier":"com.saucelabs.SwagLabsMobileApp"}},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:09:467 [WD Proxy] Determined the downstream protocol as 'W3C'
+2021-07-04 14:18:09:467 [BaseDriver] Event 'wdaSessionStarted' logged at 1625408289467 (19:48:09 GMT+0530 (India Standard Time))
+2021-07-04 14:18:09:468 [BaseDriver] Event 'wdaStarted' logged at 1625408289467 (19:48:09 GMT+0530 (India Standard Time))
+2021-07-04 14:18:09:468 [XCUITest] Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+2021-07-04 14:18:09:468 [BaseDriver] Event 'orientationSet' logged at 1625408289468 (19:48:09 GMT+0530 (India Standard Time))
+2021-07-04 14:18:09:469 [BaseDriver] The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
+2021-07-04 14:18:09:469 [BaseDriver] The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
+2021-07-04 14:18:09:470 [Appium] New XCUITestDriver session created successfully, session 0fb965a4-b90e-4d82-9276-268d77cf9cde added to master session list
+2021-07-04 14:18:09:471 [BaseDriver] Event 'newSessionStarted' logged at 1625408289471 (19:48:09 GMT+0530 (India Standard Time))
+2021-07-04 14:18:09:472 [W3C (0fb965a4)] Cached the protocol value 'W3C' for the new session 0fb965a4-b90e-4d82-9276-268d77cf9cde
+2021-07-04 14:18:09:472 [W3C (0fb965a4)] Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"ios","webkitDebugProxyPort":11003,"app":"/Users/rajanchaudhary/Desktop/AppiumCucumber/src/test/resources/apps/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app","automationName":"XCUITest","bundleId":"com.saucelabs.SwagLabsMobileApp","deviceName":"iPhone 11","udid":"5098DCF8-A156-4819-8A1D-5FA540B95A3C","wdaLocalPort":10002}}
+2021-07-04 14:18:09:474 [HTTP] <-- POST /wd/hub/session 200 9800 ms - 619
+2021-07-04 14:18:09:474 [HTTP] 
+2021-07-04 14:18:09:899 [WebDriverAgent] Parsed BUILD_DIR configuration value: '/Users/rajanchaudhary/Library/Developer/Xcode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu/Build/Products'
+2021-07-04 14:18:09:900 [WebDriverAgent] Got derived data root: '/Users/rajanchaudhary/Library/Developer/Xcode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu'
+2021-07-04 14:18:10:249 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/appium/start_recording_screen
+2021-07-04 14:18:10:249 [HTTP] {}
+2021-07-04 14:18:10:256 [W3C (0fb965a4)] Calling AppiumDriver.startRecordingScreen() with args: [null,"0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:10:257 [XCUITest] Executing command 'startRecordingScreen'
+2021-07-04 14:18:10:257 [XCUITest] Checking if there is/was a previous screen recording. Set 'forceRestart' option to 'true' if you'd like to skip this step.
+2021-07-04 14:18:10:258 [XCUITest] Screen recording is not running. There is nothing to stop.
+2021-07-04 14:18:10:260 [DevCon Factory] Releasing connections for 5098DCF8-A156-4819-8A1D-5FA540B95A3C device on 9100 port number
+2021-07-04 14:18:10:261 [DevCon Factory] No cached connections have been found
+2021-07-04 14:18:10:275 [WD Proxy] Matched '/appium/settings' to command name 'getSettings'
+2021-07-04 14:18:10:275 [WD Proxy] Proxying [GET /appium/settings] to [GET http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/appium/settings] with no body
+2021-07-04 14:18:10:282 [WD Proxy] Got response with status 200: {"value":{"boundElementsByIndex":false,"mjpegServerFramerate":10,"screenshotOrientation":"auto","reduceMotion":false,"elementResponseAttributes":"type,label","screenshotQuality":1,"mjpegScalingFactor":100,"keyboardPrediction":0,"defaultActiveApplication":"auto","mjpegServerScreenshotQuality":25,"keyboardAutocorrection":0,"useFirstMatch":false,"shouldUseCompactResponses":true,"customSnapshotTimeout":15,"dismissAlertButtonSelector":"","activeAppDetectionPoint":"64.00,64.00","snapshotMaxDepth":50,"waitForIdleTimeout":10,"includeNonModalElements":false,"acceptAlertButtonSelector":"","animationCoolOffTimeout":2},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:10:285 [DevCon Factory] Requesting connection for device 5098DCF8-A156-4819-8A1D-5FA540B95A3C on local port 9100, device port 9100
+2021-07-04 14:18:10:286 [DevCon Factory] Cached connections count: 1
+2021-07-04 14:18:10:286 [DevCon Factory] Successfully requested the connection for 5098DCF8-A156-4819-8A1D-5FA540B95A3C:9100
+2021-07-04 14:18:10:424 [ffmpeg] ffmpeg version 4.3.2 Copyright (c) 2000-2021 the FFmpeg developers
+2021-07-04 14:18:10:425 [ffmpeg] 
+2021-07-04 14:18:10:425 [ffmpeg]   built with Apple clang version 11.0.0 (clang-1100.0.33.17)
+2021-07-04 14:18:10:425 [ffmpeg]   configuration: --prefix=/usr/local/Cellar/ffmpeg/4.3.2_4 --enable-shared --enable-pthreads --enable-version3 --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox
+2021-07-04 14:18:10:425 [ffmpeg] 
+2021-07-04 14:18:10:429 [ffmpeg]   libavutil      56. 51.100 / 56. 51.100
+2021-07-04 14:18:10:429 [ffmpeg]   libavcodec     58. 91.100 / 58. 91.100
+2021-07-04 14:18:10:429 [ffmpeg]   libavformat    58. 45.100 / 58. 45.100
+2021-07-04 14:18:10:429 [ffmpeg]   libavdevice    58. 10.100 / 58. 10.100
+2021-07-04 14:18:10:429 [ffmpeg]   libavfilter     7. 85.100 /  7. 85.100
+2021-07-04 14:18:10:429 [ffmpeg]   libavresample   4.  0.  0 /  4.  0.  0
+2021-07-04 14:18:10:429 [ffmpeg]   libswscale      5.  7.100 /  5.  7.100
+2021-07-04 14:18:10:429 [ffmpeg]   libswresample   3.  7.100 /  3.  7.100
+2021-07-04 14:18:10:429 [ffmpeg]   libpostproc    55.  7.100 / 55.  7.100
+2021-07-04 14:18:10:430 [ffmpeg] 
+2021-07-04 14:18:10:620 [ffmpeg] Input #0, mjpeg, from 'http://127.0.0.1:9100':
+2021-07-04 14:18:10:620 [ffmpeg]   Duration: N/A, bitrate: N/A
+2021-07-04 14:18:10:620 [ffmpeg] 
+2021-07-04 14:18:10:621 [ffmpeg]     Stream #0:0: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 828x1792 [SAR 144:144 DAR 207:448], 25 tbr, 1200k tbn, 25 tbc
+2021-07-04 14:18:10:621 [ffmpeg] 
+2021-07-04 14:18:10:622 [ffmpeg] Stream mapping:
+2021-07-04 14:18:10:622 [ffmpeg] 
+2021-07-04 14:18:10:623 [ffmpeg]   Stream #0:0 -> #0:0 (mjpeg (native) -> mjpeg (native))
+2021-07-04 14:18:10:623 [ffmpeg] Press [q] to stop, [?] for help
+2021-07-04 14:18:10:623 [ffmpeg] 
+2021-07-04 14:18:10:641 [ffmpeg] Output #0, mp4, to '/var/folders/hb/0q6xky8x0dj4wg6ddy7q0wsc0000gn/T/202164-2670-1yp2fdr.fz3l/appium_ac4364.mp4':
+2021-07-04 14:18:10:642 [ffmpeg]   Metadata:
+2021-07-04 14:18:10:642 [ffmpeg]     encoder         : Lavf58.45.100
+2021-07-04 14:18:10:642 [ffmpeg]     Stream #0:0: Video: mjpeg (mp4v / 0x7634706D), yuvj420p(pc), 828x1792 [SAR 144:144 DAR 207:448], q=2-31, 200 kb/s, 25 fps, 12800 tbn, 25 tbc
+2021-07-04 14:18:10:642 [ffmpeg]     Metadata:
+2021-07-04 14:18:10:642 [ffmpeg]       encoder         : Lavc58.91.100 mjpeg
+2021-07-04 14:18:10:642 [ffmpeg]     Side data:
+2021-07-04 14:18:10:642 [ffmpeg]       cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+2021-07-04 14:18:10:642 [ffmpeg] 
+2021-07-04 14:18:11:502 [XCUITest] Starting screen capture on the device '5098DCF8-A156-4819-8A1D-5FA540B95A3C' with command: 'ffmpeg -f mjpeg -i http://127.0.0.1:9100 -vcodec mjpeg -y /var/folders/hb/0q6xky8x0dj4wg6ddy7q0wsc0000gn/T/202164-2670-1yp2fdr.fz3l/appium_ac4364.mp4'. Will timeout in 180000ms
+2021-07-04 14:18:11:503 [W3C (0fb965a4)] Responding to client with driver.startRecordingScreen() result: ""
+2021-07-04 14:18:11:506 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/appium/start_recording_screen 200 1255 ms - 12
+2021-07-04 14:18:11:507 [HTTP] 
+2021-07-04 14:18:11:754 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context
+2021-07-04 14:18:11:754 [HTTP] {}
+2021-07-04 14:18:11:759 [W3C (0fb965a4)] Calling AppiumDriver.getCurrentContext() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:11:759 [XCUITest] Executing command 'getCurrentContext'
+2021-07-04 14:18:11:760 [W3C (0fb965a4)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-04 14:18:11:762 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context 200 7 ms - 22
+2021-07-04 14:18:11:762 [HTTP] 
+2021-07-04 14:18:11:775 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element
+2021-07-04 14:18:11:775 [HTTP] {"using":"id","value":"test-Username"}
+2021-07-04 14:18:11:776 [W3C (0fb965a4)] Calling AppiumDriver.findElement() with args: ["id","test-Username","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:11:776 [XCUITest] Executing command 'findElement'
+2021-07-04 14:18:11:777 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2021-07-04 14:18:11:777 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-04 14:18:11:779 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-07-04 14:18:11:779 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element] with body: {"using":"id","value":"test-Username"}
+2021-07-04 14:18:12:032 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"4A000000-0000-0000-A20A-000000000000","element-6066-11e4-a52e-4f735466cecf":"4A000000-0000-0000-A20A-000000000000"},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:12:033 [W3C (0fb965a4)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4A000000-0000-0000-A20A-000000000000","ELEMENT":"4A000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:12:034 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element 200 259 ms - 137
+2021-07-04 14:18:12:034 [HTTP] 
+2021-07-04 14:18:12:043 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4A000000-0000-0000-A20A-000000000000/displayed
+2021-07-04 14:18:12:043 [HTTP] {}
+2021-07-04 14:18:12:045 [W3C (0fb965a4)] Driver proxy active, passing request on via HTTP proxy
+2021-07-04 14:18:12:045 [XCUITest] Executing command 'proxyReqRes'
+2021-07-04 14:18:12:046 [WD Proxy] Matched '/wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4A000000-0000-0000-A20A-000000000000/displayed' to command name 'elementDisplayed'
+2021-07-04 14:18:12:047 [WD Proxy] Proxying [GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4A000000-0000-0000-A20A-000000000000/displayed] to [GET http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element/4A000000-0000-0000-A20A-000000000000/displayed] with no body
+2021-07-04 14:18:12:210 [WD Proxy] Got response with status 200: {"value":true,"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:12:211 [WD Proxy] Replacing sessionId E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E with 0fb965a4-b90e-4d82-9276-268d77cf9cde
+2021-07-04 14:18:12:212 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4A000000-0000-0000-A20A-000000000000/displayed 200 168 ms - 65
+2021-07-04 14:18:12:212 [HTTP] 
+2021-07-04 14:18:12:219 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context
+2021-07-04 14:18:12:219 [HTTP] {}
+2021-07-04 14:18:12:220 [W3C (0fb965a4)] Calling AppiumDriver.getCurrentContext() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:12:220 [XCUITest] Executing command 'getCurrentContext'
+2021-07-04 14:18:12:221 [W3C (0fb965a4)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-04 14:18:12:222 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context 200 2 ms - 22
+2021-07-04 14:18:12:222 [HTTP] 
+2021-07-04 14:18:12:229 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element
+2021-07-04 14:18:12:229 [HTTP] {"using":"id","value":"test-Username"}
+2021-07-04 14:18:12:229 [W3C (0fb965a4)] Calling AppiumDriver.findElement() with args: ["id","test-Username","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:12:230 [XCUITest] Executing command 'findElement'
+2021-07-04 14:18:12:230 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2021-07-04 14:18:12:230 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-04 14:18:12:231 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-07-04 14:18:12:232 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element] with body: {"using":"id","value":"test-Username"}
+2021-07-04 14:18:12:485 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"4A000000-0000-0000-A20A-000000000000","element-6066-11e4-a52e-4f735466cecf":"4A000000-0000-0000-A20A-000000000000"},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:12:486 [W3C (0fb965a4)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4A000000-0000-0000-A20A-000000000000","ELEMENT":"4A000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:12:487 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element 200 258 ms - 137
+2021-07-04 14:18:12:487 [HTTP] 
+2021-07-04 14:18:12:494 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4A000000-0000-0000-A20A-000000000000/clear
+2021-07-04 14:18:12:494 [HTTP] {"id":"4A000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:12:494 [W3C (0fb965a4)] Calling AppiumDriver.clear() with args: ["4A000000-0000-0000-A20A-000000000000","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:12:495 [XCUITest] Executing command 'clear'
+2021-07-04 14:18:12:496 [WD Proxy] Matched '/element/4A000000-0000-0000-A20A-000000000000/clear' to command name 'clear'
+2021-07-04 14:18:12:496 [WD Proxy] Proxying [POST /element/4A000000-0000-0000-A20A-000000000000/clear] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element/4A000000-0000-0000-A20A-000000000000/clear] with no body
+2021-07-04 14:18:12:598 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:12:599 [W3C (0fb965a4)] Responding to client with driver.clear() result: null
+2021-07-04 14:18:12:600 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4A000000-0000-0000-A20A-000000000000/clear 200 106 ms - 14
+2021-07-04 14:18:12:600 [HTTP] 
+2021-07-04 14:18:12:605 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context
+2021-07-04 14:18:12:605 [HTTP] {}
+2021-07-04 14:18:12:605 [W3C (0fb965a4)] Calling AppiumDriver.getCurrentContext() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:12:606 [XCUITest] Executing command 'getCurrentContext'
+2021-07-04 14:18:12:606 [W3C (0fb965a4)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-04 14:18:12:607 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context 200 2 ms - 22
+2021-07-04 14:18:12:607 [HTTP] 
+2021-07-04 14:18:12:614 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element
+2021-07-04 14:18:12:614 [HTTP] {"using":"id","value":"test-Username"}
+2021-07-04 14:18:12:616 [W3C (0fb965a4)] Calling AppiumDriver.findElement() with args: ["id","test-Username","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:12:616 [XCUITest] Executing command 'findElement'
+2021-07-04 14:18:12:616 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2021-07-04 14:18:12:617 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-04 14:18:12:617 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-07-04 14:18:12:617 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element] with body: {"using":"id","value":"test-Username"}
+2021-07-04 14:18:12:859 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"4A000000-0000-0000-A20A-000000000000","element-6066-11e4-a52e-4f735466cecf":"4A000000-0000-0000-A20A-000000000000"},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:12:860 [W3C (0fb965a4)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4A000000-0000-0000-A20A-000000000000","ELEMENT":"4A000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:12:864 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element 200 249 ms - 137
+2021-07-04 14:18:12:864 [HTTP] 
+2021-07-04 14:18:12:870 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4A000000-0000-0000-A20A-000000000000/displayed
+2021-07-04 14:18:12:871 [HTTP] {}
+2021-07-04 14:18:12:872 [W3C (0fb965a4)] Driver proxy active, passing request on via HTTP proxy
+2021-07-04 14:18:12:873 [XCUITest] Executing command 'proxyReqRes'
+2021-07-04 14:18:12:874 [WD Proxy] Matched '/wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4A000000-0000-0000-A20A-000000000000/displayed' to command name 'elementDisplayed'
+2021-07-04 14:18:12:875 [WD Proxy] Proxying [GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4A000000-0000-0000-A20A-000000000000/displayed] to [GET http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element/4A000000-0000-0000-A20A-000000000000/displayed] with no body
+2021-07-04 14:18:13:035 [WD Proxy] Got response with status 200: {"value":true,"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:13:036 [WD Proxy] Replacing sessionId E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E with 0fb965a4-b90e-4d82-9276-268d77cf9cde
+2021-07-04 14:18:13:039 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4A000000-0000-0000-A20A-000000000000/displayed 200 168 ms - 65
+2021-07-04 14:18:13:039 [HTTP] 
+2021-07-04 14:18:13:043 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context
+2021-07-04 14:18:13:044 [HTTP] {}
+2021-07-04 14:18:13:045 [W3C (0fb965a4)] Calling AppiumDriver.getCurrentContext() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:13:046 [XCUITest] Executing command 'getCurrentContext'
+2021-07-04 14:18:13:046 [W3C (0fb965a4)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-04 14:18:13:048 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context 200 4 ms - 22
+2021-07-04 14:18:13:049 [HTTP] 
+2021-07-04 14:18:13:053 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element
+2021-07-04 14:18:13:054 [HTTP] {"using":"id","value":"test-Username"}
+2021-07-04 14:18:13:055 [W3C (0fb965a4)] Calling AppiumDriver.findElement() with args: ["id","test-Username","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:13:056 [XCUITest] Executing command 'findElement'
+2021-07-04 14:18:13:057 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2021-07-04 14:18:13:057 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-04 14:18:13:058 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-07-04 14:18:13:059 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element] with body: {"using":"id","value":"test-Username"}
+2021-07-04 14:18:13:317 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"4A000000-0000-0000-A20A-000000000000","element-6066-11e4-a52e-4f735466cecf":"4A000000-0000-0000-A20A-000000000000"},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:13:318 [W3C (0fb965a4)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4A000000-0000-0000-A20A-000000000000","ELEMENT":"4A000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:13:319 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element 200 266 ms - 137
+2021-07-04 14:18:13:319 [HTTP] 
+2021-07-04 14:18:13:332 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4A000000-0000-0000-A20A-000000000000/value
+2021-07-04 14:18:13:333 [HTTP] {"id":"4A000000-0000-0000-A20A-000000000000","text":"invalidUsername","value":["i","n","v","a","l","i","d","U","s","e","r","n","a","m","e"]}
+2021-07-04 14:18:13:333 [W3C (0fb965a4)] Calling AppiumDriver.setValue() with args: [["i","n","v","a","l","i","d","U","s","e","r","n","a","m","e"],"4A000000-0000-0000-A20A-000000000000","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:13:334 [XCUITest] Executing command 'setValue'
+2021-07-04 14:18:13:335 [WD Proxy] Matched '/element/4A000000-0000-0000-A20A-000000000000/value' to command name 'setValue'
+2021-07-04 14:18:13:337 [Protocol Converter] Added 'text' property "invalidUsername" to 'setValue' request body
+2021-07-04 14:18:13:338 [WD Proxy] Proxying [POST /element/4A000000-0000-0000-A20A-000000000000/value] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element/4A000000-0000-0000-A20A-000000000000/value] with body: {"value":["i","n","v","a","l","i","d","U","s","e","r","n","a","m","e"],"text":"invalidUsername"}
+2021-07-04 14:18:15:062 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:15:063 [W3C (0fb965a4)] Responding to client with driver.setValue() result: null
+2021-07-04 14:18:15:067 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4A000000-0000-0000-A20A-000000000000/value 200 1732 ms - 14
+2021-07-04 14:18:15:068 [HTTP] 
+2021-07-04 14:18:15:073 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context
+2021-07-04 14:18:15:073 [HTTP] {}
+2021-07-04 14:18:15:075 [W3C (0fb965a4)] Calling AppiumDriver.getCurrentContext() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:15:076 [XCUITest] Executing command 'getCurrentContext'
+2021-07-04 14:18:15:077 [W3C (0fb965a4)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-04 14:18:15:079 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context 200 6 ms - 22
+2021-07-04 14:18:15:082 [HTTP] 
+2021-07-04 14:18:15:084 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element
+2021-07-04 14:18:15:085 [HTTP] {"using":"id","value":"test-Password"}
+2021-07-04 14:18:15:086 [W3C (0fb965a4)] Calling AppiumDriver.findElement() with args: ["id","test-Password","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:15:087 [XCUITest] Executing command 'findElement'
+2021-07-04 14:18:15:088 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2021-07-04 14:18:15:088 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-04 14:18:15:089 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-07-04 14:18:15:090 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element] with body: {"using":"id","value":"test-Password"}
+2021-07-04 14:18:15:439 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"4B000000-0000-0000-A20A-000000000000","element-6066-11e4-a52e-4f735466cecf":"4B000000-0000-0000-A20A-000000000000"},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:15:440 [W3C (0fb965a4)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4B000000-0000-0000-A20A-000000000000","ELEMENT":"4B000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:15:441 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element 200 356 ms - 137
+2021-07-04 14:18:15:441 [HTTP] 
+2021-07-04 14:18:15:446 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4B000000-0000-0000-A20A-000000000000/displayed
+2021-07-04 14:18:15:446 [HTTP] {}
+2021-07-04 14:18:15:446 [W3C (0fb965a4)] Driver proxy active, passing request on via HTTP proxy
+2021-07-04 14:18:15:447 [XCUITest] Executing command 'proxyReqRes'
+2021-07-04 14:18:15:447 [WD Proxy] Matched '/wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4B000000-0000-0000-A20A-000000000000/displayed' to command name 'elementDisplayed'
+2021-07-04 14:18:15:448 [WD Proxy] Proxying [GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4B000000-0000-0000-A20A-000000000000/displayed] to [GET http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element/4B000000-0000-0000-A20A-000000000000/displayed] with no body
+2021-07-04 14:18:15:689 [WD Proxy] Got response with status 200: {"value":true,"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:15:689 [WD Proxy] Replacing sessionId E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E with 0fb965a4-b90e-4d82-9276-268d77cf9cde
+2021-07-04 14:18:15:690 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4B000000-0000-0000-A20A-000000000000/displayed 200 244 ms - 65
+2021-07-04 14:18:15:690 [HTTP] 
+2021-07-04 14:18:15:693 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context
+2021-07-04 14:18:15:693 [HTTP] {}
+2021-07-04 14:18:15:694 [W3C (0fb965a4)] Calling AppiumDriver.getCurrentContext() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:15:694 [XCUITest] Executing command 'getCurrentContext'
+2021-07-04 14:18:15:694 [W3C (0fb965a4)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-04 14:18:15:695 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context 200 2 ms - 22
+2021-07-04 14:18:15:695 [HTTP] 
+2021-07-04 14:18:15:701 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element
+2021-07-04 14:18:15:701 [HTTP] {"using":"id","value":"test-Password"}
+2021-07-04 14:18:15:701 [W3C (0fb965a4)] Calling AppiumDriver.findElement() with args: ["id","test-Password","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:15:702 [XCUITest] Executing command 'findElement'
+2021-07-04 14:18:15:702 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2021-07-04 14:18:15:702 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-04 14:18:15:704 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-07-04 14:18:15:704 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element] with body: {"using":"id","value":"test-Password"}
+2021-07-04 14:18:16:054 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"4B000000-0000-0000-A20A-000000000000","element-6066-11e4-a52e-4f735466cecf":"4B000000-0000-0000-A20A-000000000000"},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:16:054 [W3C (0fb965a4)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4B000000-0000-0000-A20A-000000000000","ELEMENT":"4B000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:16:056 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element 200 354 ms - 137
+2021-07-04 14:18:16:056 [HTTP] 
+2021-07-04 14:18:16:063 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4B000000-0000-0000-A20A-000000000000/clear
+2021-07-04 14:18:16:063 [HTTP] {"id":"4B000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:16:065 [W3C (0fb965a4)] Calling AppiumDriver.clear() with args: ["4B000000-0000-0000-A20A-000000000000","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:16:065 [XCUITest] Executing command 'clear'
+2021-07-04 14:18:16:066 [WD Proxy] Matched '/element/4B000000-0000-0000-A20A-000000000000/clear' to command name 'clear'
+2021-07-04 14:18:16:066 [WD Proxy] Proxying [POST /element/4B000000-0000-0000-A20A-000000000000/clear] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element/4B000000-0000-0000-A20A-000000000000/clear] with no body
+2021-07-04 14:18:16:241 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:16:241 [W3C (0fb965a4)] Responding to client with driver.clear() result: null
+2021-07-04 14:18:16:243 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4B000000-0000-0000-A20A-000000000000/clear 200 179 ms - 14
+2021-07-04 14:18:16:243 [HTTP] 
+2021-07-04 14:18:16:247 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context
+2021-07-04 14:18:16:247 [HTTP] {}
+2021-07-04 14:18:16:247 [W3C (0fb965a4)] Calling AppiumDriver.getCurrentContext() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:16:248 [XCUITest] Executing command 'getCurrentContext'
+2021-07-04 14:18:16:249 [W3C (0fb965a4)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-04 14:18:16:250 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context 200 3 ms - 22
+2021-07-04 14:18:16:250 [HTTP] 
+2021-07-04 14:18:16:255 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element
+2021-07-04 14:18:16:256 [HTTP] {"using":"id","value":"test-Password"}
+2021-07-04 14:18:16:256 [W3C (0fb965a4)] Calling AppiumDriver.findElement() with args: ["id","test-Password","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:16:256 [XCUITest] Executing command 'findElement'
+2021-07-04 14:18:16:256 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2021-07-04 14:18:16:257 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-04 14:18:16:257 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-07-04 14:18:16:258 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element] with body: {"using":"id","value":"test-Password"}
+2021-07-04 14:18:16:618 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"4B000000-0000-0000-A20A-000000000000","element-6066-11e4-a52e-4f735466cecf":"4B000000-0000-0000-A20A-000000000000"},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:16:619 [W3C (0fb965a4)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4B000000-0000-0000-A20A-000000000000","ELEMENT":"4B000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:16:619 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element 200 364 ms - 137
+2021-07-04 14:18:16:620 [HTTP] 
+2021-07-04 14:18:16:624 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4B000000-0000-0000-A20A-000000000000/displayed
+2021-07-04 14:18:16:624 [HTTP] {}
+2021-07-04 14:18:16:624 [W3C (0fb965a4)] Driver proxy active, passing request on via HTTP proxy
+2021-07-04 14:18:16:625 [XCUITest] Executing command 'proxyReqRes'
+2021-07-04 14:18:16:626 [WD Proxy] Matched '/wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4B000000-0000-0000-A20A-000000000000/displayed' to command name 'elementDisplayed'
+2021-07-04 14:18:16:626 [WD Proxy] Proxying [GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4B000000-0000-0000-A20A-000000000000/displayed] to [GET http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element/4B000000-0000-0000-A20A-000000000000/displayed] with no body
+2021-07-04 14:18:16:915 [WD Proxy] Got response with status 200: {"value":true,"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:16:916 [WD Proxy] Replacing sessionId E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E with 0fb965a4-b90e-4d82-9276-268d77cf9cde
+2021-07-04 14:18:16:917 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4B000000-0000-0000-A20A-000000000000/displayed 200 292 ms - 65
+2021-07-04 14:18:16:917 [HTTP] 
+2021-07-04 14:18:16:922 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context
+2021-07-04 14:18:16:922 [HTTP] {}
+2021-07-04 14:18:16:922 [W3C (0fb965a4)] Calling AppiumDriver.getCurrentContext() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:16:923 [XCUITest] Executing command 'getCurrentContext'
+2021-07-04 14:18:16:923 [W3C (0fb965a4)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-04 14:18:16:924 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context 200 2 ms - 22
+2021-07-04 14:18:16:924 [HTTP] 
+2021-07-04 14:18:16:930 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element
+2021-07-04 14:18:16:930 [HTTP] {"using":"id","value":"test-Password"}
+2021-07-04 14:18:16:931 [W3C (0fb965a4)] Calling AppiumDriver.findElement() with args: ["id","test-Password","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:16:931 [XCUITest] Executing command 'findElement'
+2021-07-04 14:18:16:932 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2021-07-04 14:18:16:932 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-04 14:18:16:932 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-07-04 14:18:16:933 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element] with body: {"using":"id","value":"test-Password"}
+2021-07-04 14:18:17:319 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"4B000000-0000-0000-A20A-000000000000","element-6066-11e4-a52e-4f735466cecf":"4B000000-0000-0000-A20A-000000000000"},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:17:319 [W3C (0fb965a4)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4B000000-0000-0000-A20A-000000000000","ELEMENT":"4B000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:17:320 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element 200 389 ms - 137
+2021-07-04 14:18:17:320 [HTTP] 
+2021-07-04 14:18:17:327 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4B000000-0000-0000-A20A-000000000000/value
+2021-07-04 14:18:17:327 [HTTP] {"id":"4B000000-0000-0000-A20A-000000000000","text":"secret_sauce","value":["s","e","c","r","e","t","_","s","a","u","c","e"]}
+2021-07-04 14:18:17:328 [W3C (0fb965a4)] Calling AppiumDriver.setValue() with args: [["s","e","c","r","e","t","_","s","a","u","c","e"],"4B000000-0000-0000-A20A-000000000000","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:17:328 [XCUITest] Executing command 'setValue'
+2021-07-04 14:18:17:329 [WD Proxy] Matched '/element/4B000000-0000-0000-A20A-000000000000/value' to command name 'setValue'
+2021-07-04 14:18:17:329 [Protocol Converter] Added 'text' property "secret_sauce" to 'setValue' request body
+2021-07-04 14:18:17:329 [WD Proxy] Proxying [POST /element/4B000000-0000-0000-A20A-000000000000/value] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element/4B000000-0000-0000-A20A-000000000000/value] with body: {"value":["s","e","c","r","e","t","_","s","a","u","c","e"],"text":"secret_sauce"}
+2021-07-04 14:18:18:460 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:18:462 [W3C (0fb965a4)] Responding to client with driver.setValue() result: null
+2021-07-04 14:18:18:463 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4B000000-0000-0000-A20A-000000000000/value 200 1136 ms - 14
+2021-07-04 14:18:18:464 [HTTP] 
+2021-07-04 14:18:18:475 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context
+2021-07-04 14:18:18:475 [HTTP] {}
+2021-07-04 14:18:18:475 [W3C (0fb965a4)] Calling AppiumDriver.getCurrentContext() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:18:476 [XCUITest] Executing command 'getCurrentContext'
+2021-07-04 14:18:18:477 [W3C (0fb965a4)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-04 14:18:18:482 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context 200 3 ms - 22
+2021-07-04 14:18:18:483 [HTTP] 
+2021-07-04 14:18:18:486 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element
+2021-07-04 14:18:18:486 [HTTP] {"using":"id","value":"test-LOGIN"}
+2021-07-04 14:18:18:487 [W3C (0fb965a4)] Calling AppiumDriver.findElement() with args: ["id","test-LOGIN","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:18:488 [XCUITest] Executing command 'findElement'
+2021-07-04 14:18:18:489 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2021-07-04 14:18:18:489 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-04 14:18:18:491 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-07-04 14:18:18:492 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element] with body: {"using":"id","value":"test-LOGIN"}
+2021-07-04 14:18:18:814 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"40000000-0000-0000-A20A-000000000000","element-6066-11e4-a52e-4f735466cecf":"40000000-0000-0000-A20A-000000000000"},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:18:817 [W3C (0fb965a4)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"40000000-0000-0000-A20A-000000000000","ELEMENT":"40000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:18:819 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element 200 333 ms - 137
+2021-07-04 14:18:18:820 [HTTP] 
+2021-07-04 14:18:18:822 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/40000000-0000-0000-A20A-000000000000/displayed
+2021-07-04 14:18:18:823 [HTTP] {}
+2021-07-04 14:18:18:824 [W3C (0fb965a4)] Driver proxy active, passing request on via HTTP proxy
+2021-07-04 14:18:18:825 [XCUITest] Executing command 'proxyReqRes'
+2021-07-04 14:18:18:826 [WD Proxy] Matched '/wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/40000000-0000-0000-A20A-000000000000/displayed' to command name 'elementDisplayed'
+2021-07-04 14:18:18:827 [WD Proxy] Proxying [GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/40000000-0000-0000-A20A-000000000000/displayed] to [GET http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element/40000000-0000-0000-A20A-000000000000/displayed] with no body
+2021-07-04 14:18:19:022 [WD Proxy] Got response with status 200: {"value":true,"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:19:023 [WD Proxy] Replacing sessionId E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E with 0fb965a4-b90e-4d82-9276-268d77cf9cde
+2021-07-04 14:18:19:024 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/40000000-0000-0000-A20A-000000000000/displayed 200 201 ms - 65
+2021-07-04 14:18:19:024 [HTTP] 
+2021-07-04 14:18:19:029 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context
+2021-07-04 14:18:19:029 [HTTP] {}
+2021-07-04 14:18:19:030 [W3C (0fb965a4)] Calling AppiumDriver.getCurrentContext() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:19:030 [XCUITest] Executing command 'getCurrentContext'
+2021-07-04 14:18:19:030 [W3C (0fb965a4)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-04 14:18:19:032 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context 200 2 ms - 22
+2021-07-04 14:18:19:032 [HTTP] 
+2021-07-04 14:18:19:040 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element
+2021-07-04 14:18:19:040 [HTTP] {"using":"id","value":"test-LOGIN"}
+2021-07-04 14:18:19:040 [W3C (0fb965a4)] Calling AppiumDriver.findElement() with args: ["id","test-LOGIN","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:19:041 [XCUITest] Executing command 'findElement'
+2021-07-04 14:18:19:041 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2021-07-04 14:18:19:041 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-04 14:18:19:042 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-07-04 14:18:19:042 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element] with body: {"using":"id","value":"test-LOGIN"}
+2021-07-04 14:18:19:394 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"40000000-0000-0000-A20A-000000000000","element-6066-11e4-a52e-4f735466cecf":"40000000-0000-0000-A20A-000000000000"},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:19:395 [W3C (0fb965a4)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"40000000-0000-0000-A20A-000000000000","ELEMENT":"40000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:19:396 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element 200 356 ms - 137
+2021-07-04 14:18:19:397 [HTTP] 
+2021-07-04 14:18:19:408 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/40000000-0000-0000-A20A-000000000000/click
+2021-07-04 14:18:19:408 [HTTP] {"id":"40000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:19:409 [W3C (0fb965a4)] Driver proxy active, passing request on via HTTP proxy
+2021-07-04 14:18:19:409 [XCUITest] Executing command 'proxyReqRes'
+2021-07-04 14:18:19:410 [WD Proxy] Matched '/wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/40000000-0000-0000-A20A-000000000000/click' to command name 'click'
+2021-07-04 14:18:19:410 [WD Proxy] Proxying [POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/40000000-0000-0000-A20A-000000000000/click] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element/40000000-0000-0000-A20A-000000000000/click] with body: {"id":"40000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:20:229 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:20:230 [WD Proxy] Replacing sessionId E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E with 0fb965a4-b90e-4d82-9276-268d77cf9cde
+2021-07-04 14:18:20:232 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/40000000-0000-0000-A20A-000000000000/click 200 822 ms - 65
+2021-07-04 14:18:20:232 [HTTP] 
+2021-07-04 14:18:20:247 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context
+2021-07-04 14:18:20:247 [HTTP] {}
+2021-07-04 14:18:20:248 [W3C (0fb965a4)] Calling AppiumDriver.getCurrentContext() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:20:248 [XCUITest] Executing command 'getCurrentContext'
+2021-07-04 14:18:20:249 [W3C (0fb965a4)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-04 14:18:20:250 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context 200 2 ms - 22
+2021-07-04 14:18:20:250 [HTTP] 
+2021-07-04 14:18:20:259 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element
+2021-07-04 14:18:20:259 [HTTP] {"using":"xpath","value":"//XCUIElementTypeOther[@name=\"test-Error message\"]/child::XCUIElementTypeStaticText"}
+2021-07-04 14:18:20:259 [W3C (0fb965a4)] Calling AppiumDriver.findElement() with args: ["xpath","//XCUIElementTypeOther[@name=\"test-Error message\"]/child::XCUIElementTypeStaticText","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:20:260 [XCUITest] Executing command 'findElement'
+2021-07-04 14:18:20:260 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2021-07-04 14:18:20:260 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-04 14:18:20:262 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-07-04 14:18:20:263 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element] with body: {"using":"xpath","value":"//XCUIElementTypeOther[@name=\"test-Error message\"]/child::XCUIElementTypeStaticText"}
+2021-07-04 14:18:22:311 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"A0000000-0000-0000-A20A-000000000000","element-6066-11e4-a52e-4f735466cecf":"A0000000-0000-0000-A20A-000000000000"},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:22:313 [W3C (0fb965a4)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"A0000000-0000-0000-A20A-000000000000","ELEMENT":"A0000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:22:320 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element 200 2054 ms - 137
+2021-07-04 14:18:22:322 [HTTP] 
+2021-07-04 14:18:22:325 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/A0000000-0000-0000-A20A-000000000000/displayed
+2021-07-04 14:18:22:326 [HTTP] {}
+2021-07-04 14:18:22:327 [W3C (0fb965a4)] Driver proxy active, passing request on via HTTP proxy
+2021-07-04 14:18:22:328 [XCUITest] Executing command 'proxyReqRes'
+2021-07-04 14:18:22:329 [WD Proxy] Matched '/wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/A0000000-0000-0000-A20A-000000000000/displayed' to command name 'elementDisplayed'
+2021-07-04 14:18:22:329 [WD Proxy] Proxying [GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/A0000000-0000-0000-A20A-000000000000/displayed] to [GET http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element/A0000000-0000-0000-A20A-000000000000/displayed] with no body
+2021-07-04 14:18:22:492 [WD Proxy] Got response with status 200: {"value":true,"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:22:493 [WD Proxy] Replacing sessionId E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E with 0fb965a4-b90e-4d82-9276-268d77cf9cde
+2021-07-04 14:18:22:496 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/A0000000-0000-0000-A20A-000000000000/displayed 200 170 ms - 65
+2021-07-04 14:18:22:496 [HTTP] 
+2021-07-04 14:18:22:498 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context
+2021-07-04 14:18:22:499 [HTTP] {}
+2021-07-04 14:18:22:500 [W3C (0fb965a4)] Calling AppiumDriver.getCurrentContext() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:22:500 [XCUITest] Executing command 'getCurrentContext'
+2021-07-04 14:18:22:502 [W3C (0fb965a4)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-04 14:18:22:504 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context 200 5 ms - 22
+2021-07-04 14:18:22:505 [HTTP] 
+2021-07-04 14:18:22:511 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element
+2021-07-04 14:18:22:514 [HTTP] {"using":"xpath","value":"//XCUIElementTypeOther[@name=\"test-Error message\"]/child::XCUIElementTypeStaticText"}
+2021-07-04 14:18:22:519 [W3C (0fb965a4)] Calling AppiumDriver.findElement() with args: ["xpath","//XCUIElementTypeOther[@name=\"test-Error message\"]/child::XCUIElementTypeStaticText","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:22:521 [XCUITest] Executing command 'findElement'
+2021-07-04 14:18:22:522 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2021-07-04 14:18:22:524 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-04 14:18:22:529 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-07-04 14:18:22:536 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element] with body: {"using":"xpath","value":"//XCUIElementTypeOther[@name=\"test-Error message\"]/child::XCUIElementTypeStaticText"}
+2021-07-04 14:18:24:634 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"A0000000-0000-0000-A20A-000000000000","element-6066-11e4-a52e-4f735466cecf":"A0000000-0000-0000-A20A-000000000000"},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:24:636 [W3C (0fb965a4)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"A0000000-0000-0000-A20A-000000000000","ELEMENT":"A0000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:24:639 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element 200 2126 ms - 137
+2021-07-04 14:18:24:639 [HTTP] 
+2021-07-04 14:18:24:641 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/A0000000-0000-0000-A20A-000000000000/attribute/label
+2021-07-04 14:18:24:642 [HTTP] {}
+2021-07-04 14:18:24:644 [W3C (0fb965a4)] Calling AppiumDriver.getAttribute() with args: ["label","A0000000-0000-0000-A20A-000000000000","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:24:646 [XCUITest] Executing command 'getAttribute'
+2021-07-04 14:18:24:648 [WD Proxy] Matched '/element/A0000000-0000-0000-A20A-000000000000/attribute/label' to command name 'getAttribute'
+2021-07-04 14:18:24:650 [WD Proxy] Proxying [GET /element/A0000000-0000-0000-A20A-000000000000/attribute/label] to [GET http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element/A0000000-0000-0000-A20A-000000000000/attribute/label] with no body
+2021-07-04 14:18:24:784 [WD Proxy] Got response with status 200: {"value":"Username and password do not match any user in this service.","sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:24:786 [W3C (0fb965a4)] Responding to client with driver.getAttribute() result: "Username and password do not match any user in this service."
+2021-07-04 14:18:24:787 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/A0000000-0000-0000-A20A-000000000000/attribute/label 200 145 ms - 72
+2021-07-04 14:18:24:789 [HTTP] 
+2021-07-04 14:18:24:814 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/appium/stop_recording_screen
+2021-07-04 14:18:24:814 [HTTP] {}
+2021-07-04 14:18:24:817 [W3C (0fb965a4)] Calling AppiumDriver.stopRecordingScreen() with args: [null,"0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:24:818 [XCUITest] Executing command 'stopRecordingScreen'
+2021-07-04 14:18:24:861 [ffmpeg] Exiting normally, received signal 2.
+2021-07-04 14:18:24:867 [ffmpeg] 
+2021-07-04 14:18:24:870 [DevCon Factory] Releasing connections for 5098DCF8-A156-4819-8A1D-5FA540B95A3C device on 9100 port number
+2021-07-04 14:18:24:871 [DevCon Factory] Found cached connections to release: ["5098DCF8-A156-4819-8A1D-5FA540B95A3C:9100"]
+2021-07-04 14:18:24:872 [DevCon Factory] Cached connections count: 1
+2021-07-04 14:18:24:873 [XCUITest] The size of the file is 3.96 MB
+2021-07-04 14:18:24:965 [DevCon Factory] Releasing connections for 5098DCF8-A156-4819-8A1D-5FA540B95A3C device on 9100 port number
+2021-07-04 14:18:24:965 [DevCon Factory] No cached connections have been found
+2021-07-04 14:18:24:990 [W3C (0fb965a4)] Responding to client with driver.stopRecordingScreen() result: "AAAAHGZ0eXBpc29tAAACAGlzb21pc28ybXA0MQAAAAhmcmVlAD9pGG1kYXT/2P/gABBKRklGAAECAACQAJAAAP/+ABBMYXZjNTguOTEuMTAwAP/bAEMACBISFRIVGBgYGBgYHRsdHh4eHR0dHR4eHiAgICYmJiAgIB4eICAkJCYmKSopJycmJyoqLS0tNjYzMz8/QU1NXf/EALcAAQACAwEBAQAAAAAAAAAAAAAGBwUEAwIIAQEBAAMBAQEBAQAAAAAAAAAAAAUCBAYDBwgBEAEAAgECAgUIBwQIBQMDAgcAAQIDEQQSBTEiIVETFEFC0jKSUhVhcpNignFUNMKisoGjg1MWMyMG8HPiNbOR8kQkY0NVw8FksXSEpKERAQABAwIEBQMDAwQDAQEBAAACAwQBEhFSFBMyMSIFVCFBMyNRQnM0Y1Ni00MkchWDs4Kj/8AAEQgHAAM8AwEiAAIRAAMRAP/aAAwDAQACEQMRAD8Av4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGO3G5w7WnHmvXHXXTWUd+ecs/V4v4me3G2w7vH4eaviUmddJ+j6qG7jk/KNrhvmvtqxWkTM9a/rgk235ls93fw8OamS2mukdyQqH/2vtOK+bezXw624seOkezpNuK3u+ymO1+bfMs3jaeS9bg9nTh//AB8PD1uL4gWOjObmux2+SceTcY6Xr0xPmcuab+vLtrbN026McfFeXzhv9jfb7TBus03nNuslrX19GvTH4p9oH1zE6wi+55rsdnbhz560t8PWtPu1izNzxeD1fa4Oz63C+fP9vYNpkzbjy2KXzxb2M/8AF1b+1biB...
+2021-07-04 14:18:25:069 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/appium/stop_recording_screen 200 231 ms - 5542592
+2021-07-04 14:18:25:071 [HTTP] 
+2021-07-04 14:18:25:525 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/appium/start_recording_screen
+2021-07-04 14:18:25:525 [HTTP] {}
+2021-07-04 14:18:25:525 [W3C (0fb965a4)] Calling AppiumDriver.startRecordingScreen() with args: [null,"0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:25:525 [XCUITest] Executing command 'startRecordingScreen'
+2021-07-04 14:18:25:525 [XCUITest] Checking if there is/was a previous screen recording. Set 'forceRestart' option to 'true' if you'd like to skip this step.
+2021-07-04 14:18:25:526 [XCUITest] Screen recording is not running. There is nothing to stop.
+2021-07-04 14:18:25:528 [DevCon Factory] Releasing connections for 5098DCF8-A156-4819-8A1D-5FA540B95A3C device on 9100 port number
+2021-07-04 14:18:25:529 [DevCon Factory] No cached connections have been found
+2021-07-04 14:18:25:531 [WD Proxy] Matched '/appium/settings' to command name 'getSettings'
+2021-07-04 14:18:25:531 [WD Proxy] Proxying [GET /appium/settings] to [GET http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/appium/settings] with no body
+2021-07-04 14:18:25:536 [WD Proxy] Got response with status 200: {"value":{"boundElementsByIndex":false,"mjpegServerFramerate":10,"screenshotOrientation":"auto","reduceMotion":false,"elementResponseAttributes":"type,label","screenshotQuality":1,"mjpegScalingFactor":100,"keyboardPrediction":0,"defaultActiveApplication":"auto","mjpegServerScreenshotQuality":25,"keyboardAutocorrection":0,"useFirstMatch":false,"shouldUseCompactResponses":true,"customSnapshotTimeout":15,"dismissAlertButtonSelector":"","activeAppDetectionPoint":"64.00,64.00","snapshotMaxDepth":50,"waitForIdleTimeout":10,"includeNonModalElements":false,"acceptAlertButtonSelector":"","animationCoolOffTimeout":2},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:25:538 [DevCon Factory] Requesting connection for device 5098DCF8-A156-4819-8A1D-5FA540B95A3C on local port 9100, device port 9100
+2021-07-04 14:18:25:539 [DevCon Factory] Cached connections count: 1
+2021-07-04 14:18:25:539 [DevCon Factory] Successfully requested the connection for 5098DCF8-A156-4819-8A1D-5FA540B95A3C:9100
+2021-07-04 14:18:25:624 [ffmpeg] ffmpeg version 4.3.2 Copyright (c) 2000-2021 the FFmpeg developers
+2021-07-04 14:18:25:625 [ffmpeg]   built with Apple clang version 11.0.0 (clang-1100.0.33.17)
+2021-07-04 14:18:25:625 [ffmpeg]   configuration: --prefix=/usr/local/Cellar/ffmpeg/4.3.2_4 --enable-shared --enable-pthreads --enable-version3 --enable-avresample --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gnutls --enable-gpl --enable-libaom --enable-libbluray --enable-libdav1d --enable-libmp3lame --enable-libopus --enable-librav1e --enable-librubberband --enable-libsnappy --enable-libsrt --enable-libtesseract --enable-libtheora --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libxvid --enable-lzma --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libspeex --enable-libsoxr --enable-libzmq --enable-libzimg --disable-libjack --disable-indev=jack --enable-videotoolbox
+2021-07-04 14:18:25:625 [ffmpeg] 
+2021-07-04 14:18:25:625 [ffmpeg]   libavutil      56. 51.100 / 56. 51.100
+2021-07-04 14:18:25:625 [ffmpeg]   libavcodec     58. 91.100 / 58. 91.100
+2021-07-04 14:18:25:626 [ffmpeg]   libavformat    58. 45.100 / 58. 45.100
+2021-07-04 14:18:25:626 [ffmpeg]   libavdevice    58. 10.100 / 58. 10.100
+2021-07-04 14:18:25:626 [ffmpeg]   libavfilter     7. 85.100 /  7. 85.100
+2021-07-04 14:18:25:626 [ffmpeg]   libavresample   4.  0.  0 /  4.  0.  0
+2021-07-04 14:18:25:626 [ffmpeg]   libswscale      5.  7.100 /  5.  7.100
+2021-07-04 14:18:25:626 [ffmpeg]   libswresample   3.  7.100 /  3.  7.100
+2021-07-04 14:18:25:626 [ffmpeg]   libpostproc    55.  7.100 / 55.  7.100
+2021-07-04 14:18:25:626 [ffmpeg] 
+2021-07-04 14:18:25:855 [ffmpeg] Input #0, mjpeg, from 'http://127.0.0.1:9100':
+2021-07-04 14:18:25:855 [ffmpeg]   Duration: N/A, bitrate: N/A
+2021-07-04 14:18:25:856 [ffmpeg] 
+2021-07-04 14:18:25:856 [ffmpeg]     Stream #0:0: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 828x1792 [SAR 144:144 DAR 207:448], 25 tbr, 1200k tbn, 25 tbc
+2021-07-04 14:18:25:857 [ffmpeg] Stream mapping:
+2021-07-04 14:18:25:857 [ffmpeg]   Stream #0:0 -> #0:0 (mjpeg (native) -> mjpeg (native))
+2021-07-04 14:18:25:857 [ffmpeg] Press [q] to stop, [?] for help
+2021-07-04 14:18:25:858 [ffmpeg] 
+2021-07-04 14:18:25:868 [ffmpeg] Output #0, mp4, to '/var/folders/hb/0q6xky8x0dj4wg6ddy7q0wsc0000gn/T/202164-2670-1w34cjk.t2f1/appium_b5bacc.mp4':
+2021-07-04 14:18:25:868 [ffmpeg]   Metadata:
+2021-07-04 14:18:25:868 [ffmpeg]     encoder         : Lavf58.45.100
+2021-07-04 14:18:25:868 [ffmpeg]     Stream #0:0: Video: mjpeg (mp4v / 0x7634706D), yuvj420p(pc), 828x1792 [SAR 144:144 DAR 207:448], q=2-31, 200 kb/s, 25 fps, 12800 tbn, 25 tbc
+2021-07-04 14:18:25:868 [ffmpeg]     Metadata:
+2021-07-04 14:18:25:868 [ffmpeg]       encoder         : Lavc58.91.100 mjpeg
+2021-07-04 14:18:25:869 [ffmpeg]     Side data:
+2021-07-04 14:18:25:869 [ffmpeg]       cpb: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+2021-07-04 14:18:25:869 [ffmpeg] 
+2021-07-04 14:18:26:758 [XCUITest] Starting screen capture on the device '5098DCF8-A156-4819-8A1D-5FA540B95A3C' with command: 'ffmpeg -f mjpeg -i http://127.0.0.1:9100 -vcodec mjpeg -y /var/folders/hb/0q6xky8x0dj4wg6ddy7q0wsc0000gn/T/202164-2670-1w34cjk.t2f1/appium_b5bacc.mp4'. Will timeout in 180000ms
+2021-07-04 14:18:26:759 [W3C (0fb965a4)] Responding to client with driver.startRecordingScreen() result: ""
+2021-07-04 14:18:26:762 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/appium/start_recording_screen 200 1236 ms - 12
+2021-07-04 14:18:26:762 [HTTP] 
+2021-07-04 14:18:26:768 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context
+2021-07-04 14:18:26:768 [HTTP] {}
+2021-07-04 14:18:26:769 [W3C (0fb965a4)] Calling AppiumDriver.getCurrentContext() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:26:769 [XCUITest] Executing command 'getCurrentContext'
+2021-07-04 14:18:26:769 [W3C (0fb965a4)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-04 14:18:26:770 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context 200 2 ms - 22
+2021-07-04 14:18:26:771 [HTTP] 
+2021-07-04 14:18:26:776 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element
+2021-07-04 14:18:26:776 [HTTP] {"using":"id","value":"test-Username"}
+2021-07-04 14:18:26:779 [W3C (0fb965a4)] Calling AppiumDriver.findElement() with args: ["id","test-Username","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:26:779 [XCUITest] Executing command 'findElement'
+2021-07-04 14:18:26:780 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2021-07-04 14:18:26:780 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-04 14:18:26:781 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-07-04 14:18:26:781 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element] with body: {"using":"id","value":"test-Username"}
+2021-07-04 14:18:27:076 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"4A000000-0000-0000-A20A-000000000000","element-6066-11e4-a52e-4f735466cecf":"4A000000-0000-0000-A20A-000000000000"},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:27:076 [W3C (0fb965a4)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4A000000-0000-0000-A20A-000000000000","ELEMENT":"4A000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:27:077 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element 200 301 ms - 137
+2021-07-04 14:18:27:077 [HTTP] 
+2021-07-04 14:18:27:084 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4A000000-0000-0000-A20A-000000000000/displayed
+2021-07-04 14:18:27:084 [HTTP] {}
+2021-07-04 14:18:27:085 [W3C (0fb965a4)] Driver proxy active, passing request on via HTTP proxy
+2021-07-04 14:18:27:086 [XCUITest] Executing command 'proxyReqRes'
+2021-07-04 14:18:27:086 [WD Proxy] Matched '/wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4A000000-0000-0000-A20A-000000000000/displayed' to command name 'elementDisplayed'
+2021-07-04 14:18:27:086 [WD Proxy] Proxying [GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4A000000-0000-0000-A20A-000000000000/displayed] to [GET http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element/4A000000-0000-0000-A20A-000000000000/displayed] with no body
+2021-07-04 14:18:27:304 [WD Proxy] Got response with status 200: {"value":true,"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:27:304 [WD Proxy] Replacing sessionId E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E with 0fb965a4-b90e-4d82-9276-268d77cf9cde
+2021-07-04 14:18:27:305 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4A000000-0000-0000-A20A-000000000000/displayed 200 221 ms - 65
+2021-07-04 14:18:27:305 [HTTP] 
+2021-07-04 14:18:27:310 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context
+2021-07-04 14:18:27:310 [HTTP] {}
+2021-07-04 14:18:27:310 [W3C (0fb965a4)] Calling AppiumDriver.getCurrentContext() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:27:311 [XCUITest] Executing command 'getCurrentContext'
+2021-07-04 14:18:27:312 [W3C (0fb965a4)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-04 14:18:27:313 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context 200 3 ms - 22
+2021-07-04 14:18:27:313 [HTTP] 
+2021-07-04 14:18:27:319 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element
+2021-07-04 14:18:27:319 [HTTP] {"using":"id","value":"test-Username"}
+2021-07-04 14:18:27:319 [W3C (0fb965a4)] Calling AppiumDriver.findElement() with args: ["id","test-Username","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:27:319 [XCUITest] Executing command 'findElement'
+2021-07-04 14:18:27:320 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2021-07-04 14:18:27:320 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-04 14:18:27:320 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-07-04 14:18:27:320 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element] with body: {"using":"id","value":"test-Username"}
+2021-07-04 14:18:27:633 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"4A000000-0000-0000-A20A-000000000000","element-6066-11e4-a52e-4f735466cecf":"4A000000-0000-0000-A20A-000000000000"},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:27:634 [W3C (0fb965a4)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4A000000-0000-0000-A20A-000000000000","ELEMENT":"4A000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:27:635 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element 200 316 ms - 137
+2021-07-04 14:18:27:635 [HTTP] 
+2021-07-04 14:18:27:642 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4A000000-0000-0000-A20A-000000000000/clear
+2021-07-04 14:18:27:642 [HTTP] {"id":"4A000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:27:642 [W3C (0fb965a4)] Calling AppiumDriver.clear() with args: ["4A000000-0000-0000-A20A-000000000000","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:27:642 [XCUITest] Executing command 'clear'
+2021-07-04 14:18:27:643 [WD Proxy] Matched '/element/4A000000-0000-0000-A20A-000000000000/clear' to command name 'clear'
+2021-07-04 14:18:27:644 [WD Proxy] Proxying [POST /element/4A000000-0000-0000-A20A-000000000000/clear] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element/4A000000-0000-0000-A20A-000000000000/clear] with no body
+2021-07-04 14:18:29:589 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:29:589 [W3C (0fb965a4)] Responding to client with driver.clear() result: null
+2021-07-04 14:18:29:590 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4A000000-0000-0000-A20A-000000000000/clear 200 1948 ms - 14
+2021-07-04 14:18:29:590 [HTTP] 
+2021-07-04 14:18:29:595 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context
+2021-07-04 14:18:29:595 [HTTP] {}
+2021-07-04 14:18:29:596 [W3C (0fb965a4)] Calling AppiumDriver.getCurrentContext() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:29:596 [XCUITest] Executing command 'getCurrentContext'
+2021-07-04 14:18:29:597 [W3C (0fb965a4)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-04 14:18:29:598 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context 200 2 ms - 22
+2021-07-04 14:18:29:598 [HTTP] 
+2021-07-04 14:18:29:603 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element
+2021-07-04 14:18:29:604 [HTTP] {"using":"id","value":"test-Username"}
+2021-07-04 14:18:29:604 [W3C (0fb965a4)] Calling AppiumDriver.findElement() with args: ["id","test-Username","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:29:604 [XCUITest] Executing command 'findElement'
+2021-07-04 14:18:29:605 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2021-07-04 14:18:29:605 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-04 14:18:29:605 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-07-04 14:18:29:605 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element] with body: {"using":"id","value":"test-Username"}
+2021-07-04 14:18:29:974 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"4A000000-0000-0000-A20A-000000000000","element-6066-11e4-a52e-4f735466cecf":"4A000000-0000-0000-A20A-000000000000"},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:29:975 [W3C (0fb965a4)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4A000000-0000-0000-A20A-000000000000","ELEMENT":"4A000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:29:975 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element 200 372 ms - 137
+2021-07-04 14:18:29:976 [HTTP] 
+2021-07-04 14:18:29:980 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4A000000-0000-0000-A20A-000000000000/displayed
+2021-07-04 14:18:29:980 [HTTP] {}
+2021-07-04 14:18:29:981 [W3C (0fb965a4)] Driver proxy active, passing request on via HTTP proxy
+2021-07-04 14:18:29:981 [XCUITest] Executing command 'proxyReqRes'
+2021-07-04 14:18:29:983 [WD Proxy] Matched '/wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4A000000-0000-0000-A20A-000000000000/displayed' to command name 'elementDisplayed'
+2021-07-04 14:18:29:983 [WD Proxy] Proxying [GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4A000000-0000-0000-A20A-000000000000/displayed] to [GET http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element/4A000000-0000-0000-A20A-000000000000/displayed] with no body
+2021-07-04 14:18:30:238 [WD Proxy] Got response with status 200: {"value":true,"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:30:238 [WD Proxy] Replacing sessionId E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E with 0fb965a4-b90e-4d82-9276-268d77cf9cde
+2021-07-04 14:18:30:239 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4A000000-0000-0000-A20A-000000000000/displayed 200 259 ms - 65
+2021-07-04 14:18:30:239 [HTTP] 
+2021-07-04 14:18:30:244 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context
+2021-07-04 14:18:30:244 [HTTP] {}
+2021-07-04 14:18:30:244 [W3C (0fb965a4)] Calling AppiumDriver.getCurrentContext() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:30:244 [XCUITest] Executing command 'getCurrentContext'
+2021-07-04 14:18:30:250 [W3C (0fb965a4)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-04 14:18:30:250 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context 200 6 ms - 22
+2021-07-04 14:18:30:251 [HTTP] 
+2021-07-04 14:18:30:255 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element
+2021-07-04 14:18:30:256 [HTTP] {"using":"id","value":"test-Username"}
+2021-07-04 14:18:30:256 [W3C (0fb965a4)] Calling AppiumDriver.findElement() with args: ["id","test-Username","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:30:256 [XCUITest] Executing command 'findElement'
+2021-07-04 14:18:30:257 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2021-07-04 14:18:30:257 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-04 14:18:30:258 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-07-04 14:18:30:258 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element] with body: {"using":"id","value":"test-Username"}
+2021-07-04 14:18:30:658 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"4A000000-0000-0000-A20A-000000000000","element-6066-11e4-a52e-4f735466cecf":"4A000000-0000-0000-A20A-000000000000"},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:30:660 [W3C (0fb965a4)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4A000000-0000-0000-A20A-000000000000","ELEMENT":"4A000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:30:665 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element 200 405 ms - 137
+2021-07-04 14:18:30:667 [HTTP] 
+2021-07-04 14:18:30:669 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4A000000-0000-0000-A20A-000000000000/value
+2021-07-04 14:18:30:669 [HTTP] {"id":"4A000000-0000-0000-A20A-000000000000","text":"standard_user","value":["s","t","a","n","d","a","r","d","_","u","s","e","r"]}
+2021-07-04 14:18:30:671 [W3C (0fb965a4)] Calling AppiumDriver.setValue() with args: [["s","t","a","n","d","a","r","d","_","u","s","e","r"],"4A000000-0000-0000-A20A-000000000000","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:30:672 [XCUITest] Executing command 'setValue'
+2021-07-04 14:18:30:674 [WD Proxy] Matched '/element/4A000000-0000-0000-A20A-000000000000/value' to command name 'setValue'
+2021-07-04 14:18:30:674 [Protocol Converter] Added 'text' property "standard_user" to 'setValue' request body
+2021-07-04 14:18:30:676 [WD Proxy] Proxying [POST /element/4A000000-0000-0000-A20A-000000000000/value] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element/4A000000-0000-0000-A20A-000000000000/value] with body: {"value":["s","t","a","n","d","a","r","d","_","u","s","e","r"],"text":"standard_user"}
+2021-07-04 14:18:31:204 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:31:206 [W3C (0fb965a4)] Responding to client with driver.setValue() result: null
+2021-07-04 14:18:31:215 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4A000000-0000-0000-A20A-000000000000/value 200 538 ms - 14
+2021-07-04 14:18:31:215 [HTTP] 
+2021-07-04 14:18:31:220 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context
+2021-07-04 14:18:31:223 [HTTP] {}
+2021-07-04 14:18:31:223 [W3C (0fb965a4)] Calling AppiumDriver.getCurrentContext() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:31:224 [XCUITest] Executing command 'getCurrentContext'
+2021-07-04 14:18:31:225 [W3C (0fb965a4)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-04 14:18:31:228 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context 200 6 ms - 22
+2021-07-04 14:18:31:230 [HTTP] 
+2021-07-04 14:18:31:233 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element
+2021-07-04 14:18:31:234 [HTTP] {"using":"id","value":"test-Password"}
+2021-07-04 14:18:31:234 [W3C (0fb965a4)] Calling AppiumDriver.findElement() with args: ["id","test-Password","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:31:235 [XCUITest] Executing command 'findElement'
+2021-07-04 14:18:31:236 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2021-07-04 14:18:31:236 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-04 14:18:31:238 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-07-04 14:18:31:240 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element] with body: {"using":"id","value":"test-Password"}
+2021-07-04 14:18:31:595 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"4B000000-0000-0000-A20A-000000000000","element-6066-11e4-a52e-4f735466cecf":"4B000000-0000-0000-A20A-000000000000"},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:31:596 [W3C (0fb965a4)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4B000000-0000-0000-A20A-000000000000","ELEMENT":"4B000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:31:597 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element 200 364 ms - 137
+2021-07-04 14:18:31:597 [HTTP] 
+2021-07-04 14:18:31:601 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4B000000-0000-0000-A20A-000000000000/displayed
+2021-07-04 14:18:31:601 [HTTP] {}
+2021-07-04 14:18:31:604 [W3C (0fb965a4)] Driver proxy active, passing request on via HTTP proxy
+2021-07-04 14:18:31:604 [XCUITest] Executing command 'proxyReqRes'
+2021-07-04 14:18:31:605 [WD Proxy] Matched '/wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4B000000-0000-0000-A20A-000000000000/displayed' to command name 'elementDisplayed'
+2021-07-04 14:18:31:606 [WD Proxy] Proxying [GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4B000000-0000-0000-A20A-000000000000/displayed] to [GET http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element/4B000000-0000-0000-A20A-000000000000/displayed] with no body
+2021-07-04 14:18:31:851 [WD Proxy] Got response with status 200: {"value":true,"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:31:851 [WD Proxy] Replacing sessionId E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E with 0fb965a4-b90e-4d82-9276-268d77cf9cde
+2021-07-04 14:18:31:852 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4B000000-0000-0000-A20A-000000000000/displayed 200 251 ms - 65
+2021-07-04 14:18:31:852 [HTTP] 
+2021-07-04 14:18:31:857 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context
+2021-07-04 14:18:31:857 [HTTP] {}
+2021-07-04 14:18:31:858 [W3C (0fb965a4)] Calling AppiumDriver.getCurrentContext() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:31:858 [XCUITest] Executing command 'getCurrentContext'
+2021-07-04 14:18:31:858 [W3C (0fb965a4)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-04 14:18:31:859 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context 200 1 ms - 22
+2021-07-04 14:18:31:859 [HTTP] 
+2021-07-04 14:18:31:867 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element
+2021-07-04 14:18:31:868 [HTTP] {"using":"id","value":"test-Password"}
+2021-07-04 14:18:31:869 [W3C (0fb965a4)] Calling AppiumDriver.findElement() with args: ["id","test-Password","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:31:869 [XCUITest] Executing command 'findElement'
+2021-07-04 14:18:31:869 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2021-07-04 14:18:31:870 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-04 14:18:31:870 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-07-04 14:18:31:870 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element] with body: {"using":"id","value":"test-Password"}
+2021-07-04 14:18:32:259 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"4B000000-0000-0000-A20A-000000000000","element-6066-11e4-a52e-4f735466cecf":"4B000000-0000-0000-A20A-000000000000"},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:32:259 [W3C (0fb965a4)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4B000000-0000-0000-A20A-000000000000","ELEMENT":"4B000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:32:260 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element 200 393 ms - 137
+2021-07-04 14:18:32:260 [HTTP] 
+2021-07-04 14:18:32:267 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4B000000-0000-0000-A20A-000000000000/clear
+2021-07-04 14:18:32:267 [HTTP] {"id":"4B000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:32:267 [W3C (0fb965a4)] Calling AppiumDriver.clear() with args: ["4B000000-0000-0000-A20A-000000000000","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:32:268 [XCUITest] Executing command 'clear'
+2021-07-04 14:18:32:268 [WD Proxy] Matched '/element/4B000000-0000-0000-A20A-000000000000/clear' to command name 'clear'
+2021-07-04 14:18:32:269 [WD Proxy] Proxying [POST /element/4B000000-0000-0000-A20A-000000000000/clear] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element/4B000000-0000-0000-A20A-000000000000/clear] with no body
+2021-07-04 14:18:33:830 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:33:831 [W3C (0fb965a4)] Responding to client with driver.clear() result: null
+2021-07-04 14:18:33:834 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4B000000-0000-0000-A20A-000000000000/clear 200 1565 ms - 14
+2021-07-04 14:18:33:834 [HTTP] 
+2021-07-04 14:18:33:836 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context
+2021-07-04 14:18:33:837 [HTTP] {}
+2021-07-04 14:18:33:838 [W3C (0fb965a4)] Calling AppiumDriver.getCurrentContext() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:33:839 [XCUITest] Executing command 'getCurrentContext'
+2021-07-04 14:18:33:840 [W3C (0fb965a4)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-04 14:18:33:842 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context 200 5 ms - 22
+2021-07-04 14:18:33:843 [HTTP] 
+2021-07-04 14:18:33:846 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element
+2021-07-04 14:18:33:847 [HTTP] {"using":"id","value":"test-Password"}
+2021-07-04 14:18:33:848 [W3C (0fb965a4)] Calling AppiumDriver.findElement() with args: ["id","test-Password","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:33:849 [XCUITest] Executing command 'findElement'
+2021-07-04 14:18:33:849 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2021-07-04 14:18:33:851 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-04 14:18:33:851 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-07-04 14:18:33:851 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element] with body: {"using":"id","value":"test-Password"}
+2021-07-04 14:18:34:147 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"4B000000-0000-0000-A20A-000000000000","element-6066-11e4-a52e-4f735466cecf":"4B000000-0000-0000-A20A-000000000000"},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:34:147 [W3C (0fb965a4)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4B000000-0000-0000-A20A-000000000000","ELEMENT":"4B000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:34:149 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element 200 303 ms - 137
+2021-07-04 14:18:34:149 [HTTP] 
+2021-07-04 14:18:34:156 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4B000000-0000-0000-A20A-000000000000/displayed
+2021-07-04 14:18:34:156 [HTTP] {}
+2021-07-04 14:18:34:156 [W3C (0fb965a4)] Driver proxy active, passing request on via HTTP proxy
+2021-07-04 14:18:34:156 [XCUITest] Executing command 'proxyReqRes'
+2021-07-04 14:18:34:157 [WD Proxy] Matched '/wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4B000000-0000-0000-A20A-000000000000/displayed' to command name 'elementDisplayed'
+2021-07-04 14:18:34:157 [WD Proxy] Proxying [GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4B000000-0000-0000-A20A-000000000000/displayed] to [GET http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element/4B000000-0000-0000-A20A-000000000000/displayed] with no body
+2021-07-04 14:18:34:408 [WD Proxy] Got response with status 200: {"value":true,"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:34:409 [WD Proxy] Replacing sessionId E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E with 0fb965a4-b90e-4d82-9276-268d77cf9cde
+2021-07-04 14:18:34:410 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4B000000-0000-0000-A20A-000000000000/displayed 200 254 ms - 65
+2021-07-04 14:18:34:410 [HTTP] 
+2021-07-04 14:18:34:414 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context
+2021-07-04 14:18:34:414 [HTTP] {}
+2021-07-04 14:18:34:415 [W3C (0fb965a4)] Calling AppiumDriver.getCurrentContext() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:34:415 [XCUITest] Executing command 'getCurrentContext'
+2021-07-04 14:18:34:415 [W3C (0fb965a4)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-04 14:18:34:417 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context 200 2 ms - 22
+2021-07-04 14:18:34:417 [HTTP] 
+2021-07-04 14:18:34:424 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element
+2021-07-04 14:18:34:424 [HTTP] {"using":"id","value":"test-Password"}
+2021-07-04 14:18:34:425 [W3C (0fb965a4)] Calling AppiumDriver.findElement() with args: ["id","test-Password","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:34:425 [XCUITest] Executing command 'findElement'
+2021-07-04 14:18:34:425 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2021-07-04 14:18:34:425 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-04 14:18:34:426 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-07-04 14:18:34:426 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element] with body: {"using":"id","value":"test-Password"}
+2021-07-04 14:18:34:736 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"4B000000-0000-0000-A20A-000000000000","element-6066-11e4-a52e-4f735466cecf":"4B000000-0000-0000-A20A-000000000000"},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:34:737 [W3C (0fb965a4)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4B000000-0000-0000-A20A-000000000000","ELEMENT":"4B000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:34:737 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element 200 313 ms - 137
+2021-07-04 14:18:34:737 [HTTP] 
+2021-07-04 14:18:34:743 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4B000000-0000-0000-A20A-000000000000/value
+2021-07-04 14:18:34:743 [HTTP] {"id":"4B000000-0000-0000-A20A-000000000000","text":"secret_sauce","value":["s","e","c","r","e","t","_","s","a","u","c","e"]}
+2021-07-04 14:18:34:744 [W3C (0fb965a4)] Calling AppiumDriver.setValue() with args: [["s","e","c","r","e","t","_","s","a","u","c","e"],"4B000000-0000-0000-A20A-000000000000","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:34:745 [XCUITest] Executing command 'setValue'
+2021-07-04 14:18:34:746 [WD Proxy] Matched '/element/4B000000-0000-0000-A20A-000000000000/value' to command name 'setValue'
+2021-07-04 14:18:34:747 [Protocol Converter] Added 'text' property "secret_sauce" to 'setValue' request body
+2021-07-04 14:18:34:747 [WD Proxy] Proxying [POST /element/4B000000-0000-0000-A20A-000000000000/value] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element/4B000000-0000-0000-A20A-000000000000/value] with body: {"value":["s","e","c","r","e","t","_","s","a","u","c","e"],"text":"secret_sauce"}
+2021-07-04 14:18:35:248 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:35:251 [W3C (0fb965a4)] Responding to client with driver.setValue() result: null
+2021-07-04 14:18:35:263 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/4B000000-0000-0000-A20A-000000000000/value 200 511 ms - 14
+2021-07-04 14:18:35:264 [HTTP] 
+2021-07-04 14:18:35:265 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context
+2021-07-04 14:18:35:266 [HTTP] {}
+2021-07-04 14:18:35:267 [W3C (0fb965a4)] Calling AppiumDriver.getCurrentContext() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:35:267 [XCUITest] Executing command 'getCurrentContext'
+2021-07-04 14:18:35:268 [W3C (0fb965a4)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-04 14:18:35:270 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context 200 4 ms - 22
+2021-07-04 14:18:35:271 [HTTP] 
+2021-07-04 14:18:35:273 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element
+2021-07-04 14:18:35:274 [HTTP] {"using":"id","value":"test-LOGIN"}
+2021-07-04 14:18:35:275 [W3C (0fb965a4)] Calling AppiumDriver.findElement() with args: ["id","test-LOGIN","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:35:276 [XCUITest] Executing command 'findElement'
+2021-07-04 14:18:35:277 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2021-07-04 14:18:35:278 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-04 14:18:35:279 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-07-04 14:18:35:281 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element] with body: {"using":"id","value":"test-LOGIN"}
+2021-07-04 14:18:35:591 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"40000000-0000-0000-A20A-000000000000","element-6066-11e4-a52e-4f735466cecf":"40000000-0000-0000-A20A-000000000000"},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:35:591 [W3C (0fb965a4)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"40000000-0000-0000-A20A-000000000000","ELEMENT":"40000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:35:592 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element 200 319 ms - 137
+2021-07-04 14:18:35:593 [HTTP] 
+2021-07-04 14:18:35:595 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/40000000-0000-0000-A20A-000000000000/displayed
+2021-07-04 14:18:35:596 [HTTP] {}
+2021-07-04 14:18:35:596 [W3C (0fb965a4)] Driver proxy active, passing request on via HTTP proxy
+2021-07-04 14:18:35:596 [XCUITest] Executing command 'proxyReqRes'
+2021-07-04 14:18:35:597 [WD Proxy] Matched '/wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/40000000-0000-0000-A20A-000000000000/displayed' to command name 'elementDisplayed'
+2021-07-04 14:18:35:597 [WD Proxy] Proxying [GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/40000000-0000-0000-A20A-000000000000/displayed] to [GET http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element/40000000-0000-0000-A20A-000000000000/displayed] with no body
+2021-07-04 14:18:35:809 [WD Proxy] Got response with status 200: {"value":true,"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:35:809 [WD Proxy] Replacing sessionId E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E with 0fb965a4-b90e-4d82-9276-268d77cf9cde
+2021-07-04 14:18:35:811 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/40000000-0000-0000-A20A-000000000000/displayed 200 214 ms - 65
+2021-07-04 14:18:35:811 [HTTP] 
+2021-07-04 14:18:35:815 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context
+2021-07-04 14:18:35:815 [HTTP] {}
+2021-07-04 14:18:35:815 [W3C (0fb965a4)] Calling AppiumDriver.getCurrentContext() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:35:815 [XCUITest] Executing command 'getCurrentContext'
+2021-07-04 14:18:35:816 [W3C (0fb965a4)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-04 14:18:35:817 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context 200 2 ms - 22
+2021-07-04 14:18:35:818 [HTTP] 
+2021-07-04 14:18:35:823 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element
+2021-07-04 14:18:35:823 [HTTP] {"using":"id","value":"test-LOGIN"}
+2021-07-04 14:18:35:824 [W3C (0fb965a4)] Calling AppiumDriver.findElement() with args: ["id","test-LOGIN","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:35:824 [XCUITest] Executing command 'findElement'
+2021-07-04 14:18:35:824 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2021-07-04 14:18:35:824 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-04 14:18:35:825 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-07-04 14:18:35:825 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element] with body: {"using":"id","value":"test-LOGIN"}
+2021-07-04 14:18:36:291 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"40000000-0000-0000-A20A-000000000000","element-6066-11e4-a52e-4f735466cecf":"40000000-0000-0000-A20A-000000000000"},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:36:291 [W3C (0fb965a4)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"40000000-0000-0000-A20A-000000000000","ELEMENT":"40000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:36:292 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element 200 469 ms - 137
+2021-07-04 14:18:36:292 [HTTP] 
+2021-07-04 14:18:36:301 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/40000000-0000-0000-A20A-000000000000/click
+2021-07-04 14:18:36:302 [HTTP] {"id":"40000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:36:303 [W3C (0fb965a4)] Driver proxy active, passing request on via HTTP proxy
+2021-07-04 14:18:36:304 [XCUITest] Executing command 'proxyReqRes'
+2021-07-04 14:18:36:306 [WD Proxy] Matched '/wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/40000000-0000-0000-A20A-000000000000/click' to command name 'click'
+2021-07-04 14:18:36:307 [WD Proxy] Proxying [POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/40000000-0000-0000-A20A-000000000000/click] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element/40000000-0000-0000-A20A-000000000000/click] with body: {"id":"40000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:36:942 [WD Proxy] Got response with status 200: {"value":null,"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:36:943 [WD Proxy] Replacing sessionId E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E with 0fb965a4-b90e-4d82-9276-268d77cf9cde
+2021-07-04 14:18:36:944 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/40000000-0000-0000-A20A-000000000000/click 200 643 ms - 65
+2021-07-04 14:18:36:944 [HTTP] 
+2021-07-04 14:18:36:951 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context
+2021-07-04 14:18:36:951 [HTTP] {}
+2021-07-04 14:18:36:952 [W3C (0fb965a4)] Calling AppiumDriver.getCurrentContext() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:36:954 [XCUITest] Executing command 'getCurrentContext'
+2021-07-04 14:18:36:955 [W3C (0fb965a4)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-04 14:18:36:956 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context 200 4 ms - 22
+2021-07-04 14:18:36:956 [HTTP] 
+2021-07-04 14:18:36:963 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element
+2021-07-04 14:18:36:963 [HTTP] {"using":"xpath","value":"//XCUIElementTypeOther[@name=\"test-Toggle\"]/parent::*[1]/preceding-sibling::*[1]"}
+2021-07-04 14:18:36:964 [W3C (0fb965a4)] Calling AppiumDriver.findElement() with args: ["xpath","//XCUIElementTypeOther[@name=\"test-Toggle\"]/parent::*[1]/preceding-sibling::*[1]","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:36:964 [XCUITest] Executing command 'findElement'
+2021-07-04 14:18:36:964 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2021-07-04 14:18:36:964 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-04 14:18:36:965 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-07-04 14:18:36:965 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element] with body: {"using":"xpath","value":"//XCUIElementTypeOther[@name=\"test-Toggle\"]/parent::*[1]/preceding-sibling::*[1]"}
+2021-07-04 14:18:39:335 [WD Proxy] Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'xpath', value '//XCUIElementTypeOther[@name=\"test-Toggle\"]/parent::*[1]/preceding-sibling::*[1]'","traceback":"(\n\t0   WebDriverAgentLib                   0x00000001051e32ed FBNoSuchElementErrorResponseForRequest + 301\n\t1   WebDriverAgentLib                   0x00000001051e3099 +[FBFindElementCommands handleFindElement:] + 425\n\t2   WebDriverAgentLib                   0x000000010519c3f6 -[FBRoute_TargetAction mountRequest:intoResponse:] + 182\n\t3   WebDriverAgentLib                   0x000000010517714b __37-[FBWebServer registerRouteHandlers:]_block_invoke + 555\n\t4   WebDriverAgentLib                   0x00000001051c5143 -[RoutingHTTPServer handleRoute:withRequest:response:] + 211\n\t5   WebDriverAgentLib                   0x00000001051c603f __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 79\n\t6   libdispatch.dylib                   0x00007fff5223f7b9 _dispatch_client_callou...
+2021-07-04 14:18:39:338 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2021-07-04 14:18:39:385 [W3C (0fb965a4)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+2021-07-04 14:18:39:385 [W3C (0fb965a4)]     at XCUITestDriver.doNativeFind (/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/commands/find.js:126:11)
+2021-07-04 14:18:39:385 [W3C (0fb965a4)]     at processTicksAndRejections (node:internal/process/task_queues:94:5)
+2021-07-04 14:18:39:385 [W3C (0fb965a4)]     at XCUITestDriver.findNativeElementOrElements (/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/commands/find.js:86:10)
+2021-07-04 14:18:39:385 [W3C (0fb965a4)]     at XCUITestDriver.findElOrEls (/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/commands/find.js:22:12)
+2021-07-04 14:18:39:385 [W3C (0fb965a4)]     at XCUITestDriver.findElOrElsWithProcessing (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:33:12)
+2021-07-04 14:18:39:386 [W3C (0fb965a4)]     at XCUITestDriver.findElement (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/basedriver/commands/find.js:53:10)
+2021-07-04 14:18:39:418 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element 404 2423 ms - 1038
+2021-07-04 14:18:39:422 [HTTP] 
+2021-07-04 14:18:39:968 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context
+2021-07-04 14:18:39:969 [HTTP] {}
+2021-07-04 14:18:39:970 [W3C (0fb965a4)] Calling AppiumDriver.getCurrentContext() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:39:971 [XCUITest] Executing command 'getCurrentContext'
+2021-07-04 14:18:39:972 [W3C (0fb965a4)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-04 14:18:39:973 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context 200 5 ms - 22
+2021-07-04 14:18:39:974 [HTTP] 
+2021-07-04 14:18:39:977 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element
+2021-07-04 14:18:39:977 [HTTP] {"using":"xpath","value":"//XCUIElementTypeOther[@name=\"test-Toggle\"]/parent::*[1]/preceding-sibling::*[1]"}
+2021-07-04 14:18:39:978 [W3C (0fb965a4)] Calling AppiumDriver.findElement() with args: ["xpath","//XCUIElementTypeOther[@name=\"test-Toggle\"]/parent::*[1]/preceding-sibling::*[1]","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:39:978 [XCUITest] Executing command 'findElement'
+2021-07-04 14:18:39:978 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2021-07-04 14:18:39:978 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-04 14:18:39:985 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-07-04 14:18:39:986 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element] with body: {"using":"xpath","value":"//XCUIElementTypeOther[@name=\"test-Toggle\"]/parent::*[1]/preceding-sibling::*[1]"}
+2021-07-04 14:18:42:642 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"BE000000-0000-0000-A20A-000000000000","element-6066-11e4-a52e-4f735466cecf":"BE000000-0000-0000-A20A-000000000000"},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:42:643 [W3C (0fb965a4)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"BE000000-0000-0000-A20A-000000000000","ELEMENT":"BE000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:42:646 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element 200 2667 ms - 137
+2021-07-04 14:18:42:647 [HTTP] 
+2021-07-04 14:18:42:650 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/BE000000-0000-0000-A20A-000000000000/displayed
+2021-07-04 14:18:42:653 [HTTP] {}
+2021-07-04 14:18:42:654 [W3C (0fb965a4)] Driver proxy active, passing request on via HTTP proxy
+2021-07-04 14:18:42:655 [XCUITest] Executing command 'proxyReqRes'
+2021-07-04 14:18:42:657 [WD Proxy] Matched '/wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/BE000000-0000-0000-A20A-000000000000/displayed' to command name 'elementDisplayed'
+2021-07-04 14:18:42:658 [WD Proxy] Proxying [GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/BE000000-0000-0000-A20A-000000000000/displayed] to [GET http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element/BE000000-0000-0000-A20A-000000000000/displayed] with no body
+2021-07-04 14:18:42:930 [WD Proxy] Got response with status 200: {"value":true,"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:42:931 [WD Proxy] Replacing sessionId E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E with 0fb965a4-b90e-4d82-9276-268d77cf9cde
+2021-07-04 14:18:42:937 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/BE000000-0000-0000-A20A-000000000000/displayed 200 283 ms - 65
+2021-07-04 14:18:42:937 [HTTP] 
+2021-07-04 14:18:42:939 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context
+2021-07-04 14:18:42:940 [HTTP] {}
+2021-07-04 14:18:42:940 [W3C (0fb965a4)] Calling AppiumDriver.getCurrentContext() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:42:941 [XCUITest] Executing command 'getCurrentContext'
+2021-07-04 14:18:42:943 [W3C (0fb965a4)] Responding to client with driver.getCurrentContext() result: "NATIVE_APP"
+2021-07-04 14:18:42:948 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/context 200 8 ms - 22
+2021-07-04 14:18:42:953 [HTTP] 
+2021-07-04 14:18:42:956 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element
+2021-07-04 14:18:42:957 [HTTP] {"using":"xpath","value":"//XCUIElementTypeOther[@name=\"test-Toggle\"]/parent::*[1]/preceding-sibling::*[1]"}
+2021-07-04 14:18:42:958 [W3C (0fb965a4)] Calling AppiumDriver.findElement() with args: ["xpath","//XCUIElementTypeOther[@name=\"test-Toggle\"]/parent::*[1]/preceding-sibling::*[1]","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:42:959 [XCUITest] Executing command 'findElement'
+2021-07-04 14:18:42:959 [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+2021-07-04 14:18:42:961 [BaseDriver] Waiting up to 0 ms for condition
+2021-07-04 14:18:42:962 [WD Proxy] Matched '/element' to command name 'findElement'
+2021-07-04 14:18:42:963 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element] with body: {"using":"xpath","value":"//XCUIElementTypeOther[@name=\"test-Toggle\"]/parent::*[1]/preceding-sibling::*[1]"}
+2021-07-04 14:18:45:674 [WD Proxy] Got response with status 200: {"value":{"ELEMENT":"BE000000-0000-0000-A20A-000000000000","element-6066-11e4-a52e-4f735466cecf":"BE000000-0000-0000-A20A-000000000000"},"sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:45:676 [W3C (0fb965a4)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"BE000000-0000-0000-A20A-000000000000","ELEMENT":"BE000000-0000-0000-A20A-000000000000"}
+2021-07-04 14:18:45:677 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element 200 2722 ms - 137
+2021-07-04 14:18:45:678 [HTTP] 
+2021-07-04 14:18:45:682 [HTTP] --> GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/BE000000-0000-0000-A20A-000000000000/attribute/label
+2021-07-04 14:18:45:683 [HTTP] {}
+2021-07-04 14:18:45:684 [W3C (0fb965a4)] Calling AppiumDriver.getAttribute() with args: ["label","BE000000-0000-0000-A20A-000000000000","0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:45:685 [XCUITest] Executing command 'getAttribute'
+2021-07-04 14:18:45:686 [WD Proxy] Matched '/element/BE000000-0000-0000-A20A-000000000000/attribute/label' to command name 'getAttribute'
+2021-07-04 14:18:45:687 [WD Proxy] Proxying [GET /element/BE000000-0000-0000-A20A-000000000000/attribute/label] to [GET http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E/element/BE000000-0000-0000-A20A-000000000000/attribute/label] with no body
+2021-07-04 14:18:45:839 [WD Proxy] Got response with status 200: {"value":"PRODUCTS","sessionId":"E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E"}
+2021-07-04 14:18:45:840 [W3C (0fb965a4)] Responding to client with driver.getAttribute() result: "PRODUCTS"
+2021-07-04 14:18:45:842 [HTTP] <-- GET /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/element/BE000000-0000-0000-A20A-000000000000/attribute/label 200 159 ms - 20
+2021-07-04 14:18:45:844 [HTTP] 
+2021-07-04 14:18:45:849 [HTTP] --> POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/appium/stop_recording_screen
+2021-07-04 14:18:45:850 [HTTP] {}
+2021-07-04 14:18:45:851 [W3C (0fb965a4)] Calling AppiumDriver.stopRecordingScreen() with args: [null,"0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:45:852 [XCUITest] Executing command 'stopRecordingScreen'
+2021-07-04 14:18:45:898 [ffmpeg] Exiting normally, received signal 2.
+2021-07-04 14:18:45:899 [ffmpeg] 
+2021-07-04 14:18:45:903 [DevCon Factory] Releasing connections for 5098DCF8-A156-4819-8A1D-5FA540B95A3C device on 9100 port number
+2021-07-04 14:18:45:904 [DevCon Factory] Found cached connections to release: ["5098DCF8-A156-4819-8A1D-5FA540B95A3C:9100"]
+2021-07-04 14:18:45:905 [DevCon Factory] Cached connections count: 1
+2021-07-04 14:18:45:906 [XCUITest] The size of the file is 5.38 MB
+2021-07-04 14:18:46:015 [DevCon Factory] Releasing connections for 5098DCF8-A156-4819-8A1D-5FA540B95A3C device on 9100 port number
+2021-07-04 14:18:46:016 [DevCon Factory] No cached connections have been found
+2021-07-04 14:18:46:056 [W3C (0fb965a4)] Responding to client with driver.stopRecordingScreen() result: "AAAAHGZ0eXBpc29tAAACAGlzb21pc28ybXA0MQAAAAhmcmVlAFYby21kYXT/2P/gABBKRklGAAECAACQAJAAAP/+ABBMYXZjNTguOTEuMTAwAP/bAEMACBISFRIVGBgYGBgYHRsdHh4eHR0dHR4eHiAgICYmJiAgIB4eICAkJCYmKSopJycmJyoqLS0tNjYzMz8/QU1NXf/EALkAAQACAwEBAQAAAAAAAAAAAAAGBwUEAwIIAQEBAAIDAQEBAAAAAAAAAAAAAAIEAwYFBwEIEAABAwEDCAYEDAQGAgIBBAMAAwIBBBIRBSEiMdIVEzJSUaNCkkFUgnJiFLLiFsKTBqJxZDRhUyMzg4GzRHPw8jWRJENjw3SksVWEocERAQABAgQDBgUDBAICAwEAAAACAwERBBITFFIyMVMiVCEFQiOTMxVzUUFjNEPTJGKzo8ODcoL/wAARCAcAAzwDASIAAhEAAxEA/9oADAMBAAIRAxEAPwC/gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAY6oqUaVltZ7U233XyR3bmGebS+0Z6opkatPdrN3jJm+6f09UhtRg+EUqL1n0zYayJmc5+uBJqfEqOrfu0VmKOuvujoJCUP8AVektPWrZbu2utJpsjhul1p3d4SY0u1tpLb673XOscN1n/wCOzZzrXMBY5GVsVoadSU1KhNj26YnwOWKV7cOpXLaXaE45nyfOFfQvp6RCqWl8rVSjnPv7LdMelPEB9cxN8EXqcVoaN1ld...
+2021-07-04 14:18:46:145 [HTTP] <-- POST /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde/appium/stop_recording_screen 200 269 ms - 7526112
+2021-07-04 14:18:46:154 [HTTP] 
+2021-07-04 14:18:46:706 [HTTP] --> DELETE /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde
+2021-07-04 14:18:46:708 [HTTP] {}
+2021-07-04 14:18:46:709 [W3C (0fb965a4)] Calling AppiumDriver.deleteSession() with args: ["0fb965a4-b90e-4d82-9276-268d77cf9cde"]
+2021-07-04 14:18:46:710 [BaseDriver] Event 'quitSessionRequested' logged at 1625408326709 (19:48:46 GMT+0530 (India Standard Time))
+2021-07-04 14:18:46:710 [Appium] Removing session 0fb965a4-b90e-4d82-9276-268d77cf9cde from our master session list
+2021-07-04 14:18:46:712 [WD Proxy] Matched '/session/0fb965a4-b90e-4d82-9276-268d77cf9cde' to command name 'deleteSession'
+2021-07-04 14:18:46:712 [WD Proxy] Proxying [DELETE /session/0fb965a4-b90e-4d82-9276-268d77cf9cde] to [DELETE http://127.0.0.1:10002/session/E3E5D0BF-331C-45B7-A678-D10EE4FC1A0E] with no body
+2021-07-04 14:18:47:752 [WD Proxy] Got response with status 200: {"value":null,"sessionId":null}
+2021-07-04 14:18:47:753 [DevCon Factory] Releasing connections for 5098DCF8-A156-4819-8A1D-5FA540B95A3C device on any port number
+2021-07-04 14:18:47:754 [DevCon Factory] Found cached connections to release: ["5098DCF8-A156-4819-8A1D-5FA540B95A3C:10002"]
+2021-07-04 14:18:47:754 [DevCon Factory] Cached connections count: 0
+2021-07-04 14:18:47:755 [XCUITest] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+2021-07-04 14:18:47:755 [IOSSimulatorLog] Stopping iOS log capture
+2021-07-04 14:18:47:765 [BaseDriver] Event 'quitSessionFinished' logged at 1625408327764 (19:48:47 GMT+0530 (India Standard Time))
+2021-07-04 14:18:47:765 [W3C (0fb965a4)] Received response: null
+2021-07-04 14:18:47:765 [W3C (0fb965a4)] But deleting session, so not returning
+2021-07-04 14:18:47:765 [W3C (0fb965a4)] Responding to client with driver.deleteSession() result: null
+2021-07-04 14:18:47:767 [HTTP] <-- DELETE /wd/hub/session/0fb965a4-b90e-4d82-9276-268d77cf9cde 200 1059 ms - 14
+2021-07-04 14:18:47:767 [HTTP] 
+2021-07-04 14:18:47:786 [Appium] Received SIGTERM - shutting down
+2021-07-04 14:18:47:786 [Appium] There are no active sessions for cleanup
+2021-07-04 14:18:47:791 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:773:11)
+    at Socket._write (node:net:785:8)
+    at writeOrBuffer (node:internal/streams/writable:395:12)
+    at Socket.Writable.write (node:internal/streams/writable:340:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:381:22)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:139:32)
+    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:305:12)
+    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+2021-07-04 14:18:47:795 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:773:11)
+    at Socket._write (node:net:785:8)
+    at writeOrBuffer (node:internal/streams/writable:395:12)
+    at Socket.Writable.write (node:internal/streams/writable:340:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:334:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:381:22)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:139:32)
+    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:305:12)
+    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+2021-07-04 14:18:47:805 [HTTP] Waiting until the server is closed
+2021-07-04 14:18:47:808 [HTTP] Received server close event

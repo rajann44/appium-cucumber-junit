@@ -1,0 +1,15 @@
+[iOS_iPhone 11 INFO ] 2021-07-04 19:47:55.362 ServerManager:21 - Starting appium server
+[iOS_iPhone 11 INFO ] 2021-07-04 19:47:58.909 ServerManager:30 - Appium server started
+[iOS_iPhone 11 INFO ] 2021-07-04 19:47:58.964 DriverManager:29 - initializing Appium driver
+[iOS_iPhone 11 INFO ] 2021-07-04 19:47:58.990 PropertyManager:18 - loading config properties
+[iOS_iPhone 11 INFO ] 2021-07-04 19:47:58.993 CapabilitiesManager:19 - getting capabilities
+[iOS_iPhone 11 INFO ] 2021-07-04 19:47:58.995 CapabilitiesManager:43 - appUrl is/Users/rajanchaudhary/Desktop/AppiumCucumber/src/test/resources/apps/iOS.Simulator.SauceLabs.Mobile.Sample.app.2.7.1.app
+[iOS_iPhone 11 INFO ] 2021-07-04 19:48:09.583 DriverManager:41 - Driver is initialized
+[iOS_iPhone 11 INFO ] 2021-07-04 19:48:13.040 BasePage:71 - login with invalidUsername
+[iOS_iPhone 11 INFO ] 2021-07-04 19:48:16.919 BasePage:71 - password is secret_sauce
+[iOS_iPhone 11 INFO ] 2021-07-04 19:48:19.027 BasePage:54 - press login button
+[iOS_iPhone 11 INFO ] 2021-07-04 19:48:24.788 BasePage:97 - error text is - Username and password do not match any user in this service.
+[iOS_iPhone 11 INFO ] 2021-07-04 19:48:30.241 BasePage:71 - login with standard_user
+[iOS_iPhone 11 INFO ] 2021-07-04 19:48:34.411 BasePage:71 - password is secret_sauce
+[iOS_iPhone 11 INFO ] 2021-07-04 19:48:35.812 BasePage:54 - press login button
+[iOS_iPhone 11 INFO ] 2021-07-04 19:48:45.843 BasePage:97 - product page title is - PRODUCTS

@@ -1,0 +1,15 @@
+[Android_Google Pixel 2 INFO ] 2021-07-04 20:00:13.576 ServerManager:21 - Starting appium server
+[Android_Google Pixel 2 INFO ] 2021-07-04 20:00:17.189 ServerManager:30 - Appium server started
+[Android_Google Pixel 2 INFO ] 2021-07-04 20:00:17.234 DriverManager:29 - initializing Appium driver
+[Android_Google Pixel 2 INFO ] 2021-07-04 20:00:17.277 PropertyManager:18 - loading config properties
+[Android_Google Pixel 2 INFO ] 2021-07-04 20:00:17.281 CapabilitiesManager:19 - getting capabilities
+[Android_Google Pixel 2 INFO ] 2021-07-04 20:00:17.286 CapabilitiesManager:35 - appUrl is/Users/rajanchaudhary/Desktop/AppiumCucumber/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[Android_Google Pixel 2 INFO ] 2021-07-04 20:00:34.335 DriverManager:41 - Driver is initialized
+[Android_Google Pixel 2 INFO ] 2021-07-04 20:00:38.476 BasePage:71 - login with invalidUsername
+[Android_Google Pixel 2 INFO ] 2021-07-04 20:00:40.347 BasePage:71 - password is secret_sauce
+[Android_Google Pixel 2 INFO ] 2021-07-04 20:00:40.996 BasePage:54 - press login button
+[Android_Google Pixel 2 INFO ] 2021-07-04 20:00:42.060 BasePage:97 - error text is - Username and password do not match any user in this service.
+[Android_Google Pixel 2 INFO ] 2021-07-04 20:00:44.349 BasePage:71 - login with standard_user
+[Android_Google Pixel 2 INFO ] 2021-07-04 20:00:46.129 BasePage:71 - password is secret_sauce
+[Android_Google Pixel 2 INFO ] 2021-07-04 20:00:46.851 BasePage:54 - press login button
+[Android_Google Pixel 2 INFO ] 2021-07-04 20:01:01.149 VideoManager:38 - video path: Android_Google Pixel 2/Videos/Login with valid username and password.mp4

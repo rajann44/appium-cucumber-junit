@@ -1,0 +1,6 @@
+[Android_Moto Z2 Play INFO ] 2021-07-04 18:37:19.850 ServerManager:21 - Starting appium server
+[Android_Moto Z2 Play INFO ] 2021-07-04 18:37:23.416 ServerManager:30 - Appium server started
+[Android_Moto Z2 Play INFO ] 2021-07-04 18:37:23.481 DriverManager:29 - initializing Appium driver
+[Android_Moto Z2 Play INFO ] 2021-07-04 18:37:23.523 PropertyManager:18 - loading config properties
+[Android_Moto Z2 Play INFO ] 2021-07-04 18:37:23.527 CapabilitiesManager:19 - getting capabilities
+[Android_Moto Z2 Play INFO ] 2021-07-04 18:37:23.531 CapabilitiesManager:35 - appUrl is/Users/rajanchaudhary/Desktop/AppiumCucumber/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
